@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WCode Wordlist - Base-1024 Single Source of Truth</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #c9d1d9;
+      --heading: #f0f6fc;
+      --link: #58a6ff;
+      --accent: #238636;
+      --muted: #8b949e;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      margin: 0;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+    h1 {
+      color: var(--heading);
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    p.lead {
+      color: var(--muted);
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      color: var(--heading);
+      font-size: 1.25rem;
+      margin-top: 0;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      padding: 0.6rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    li:last-child {
+      border-bottom: none;
+    }
+    a.endpoint {
+      color: var(--link);
+      text-decoration: none;
+      font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+      font-weight: 600;
+    }
+    a.endpoint:hover {
+      text-decoration: underline;
+    }
+    .badge {
+      background: rgba(255,255,255,0.1);
+      color: var(--text);
+      font-size: 0.75rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 3rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+    .footer a {
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>WCode Wordlist</h1>
+    <p class="lead">Base-1024 single source of truth for digital word encoding and decoding.</p>
+
+    <div class="card">
+      <h2>Endpoints</h2>
+      <ul>
+        <li>
+          <a class="endpoint" href="/wordlist.json">/wordlist.json</a>
+          <span class="badge">JSON (1,024 words)</span>
+        </li>
+        <li>
+          <a class="endpoint" href="/wordlist.js">/wordlist.js</a>
+          <span class="badge">Browser SDK / Global dictionary</span>
+        </li>
+        <li>
+          <a class="endpoint" href="/wordlist.txt">/wordlist.txt</a>
+          <span class="badge">Plain text (newline-delimited)</span>
+        </li>
+        <li>
+          <a class="endpoint" href="/Wordlist.tsv">/Wordlist.tsv</a>
+          <span class="badge">Categorized TSV with metadata</span>
+        </li>
+        <li>
+          <a class="endpoint" href="/Wordlist-black.tsv">/Wordlist-black.tsv</a>
+          <span class="badge">Blacklisted / discarded words TSV</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>CORS & Edge Caching</h2>
+      <p style="margin: 0; color: var(--muted);">All endpoints allow cross-origin requests (<code>Access-Control-Allow-Origin: *</code>) and are cached at the Cloudflare edge.</p>
+    </div>
+
+    <div class="footer">
+      <p>&copy; <a href="https://wcodes.org">wcodes.org</a> &bull; <a href="https://wolo.codes">wolo.codes</a></p>
+    </div>
+  </div>
+</body>
+</html>

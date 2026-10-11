@@ -1,0 +1,24 @@
+/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/wordlist.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/wordlist.js
+  Content-Type: application/javascript; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/wordlist.txt
+  Content-Type: text/plain; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/Wordlist.tsv
+  Content-Type: text/tab-separated-values; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/Wordlist-black.tsv
+  Content-Type: text/tab-separated-values; charset=utf-8
+  Access-Control-Allow-Origin: *
