@@ -2,7 +2,9 @@
 
 List of 1024 simple words for encoding small digital data for humans in-between
 
-Published to public domain on https://wcodes.org
+Published to public domain on https://wcodes.org/about
+
+App: https://wcodes.org
 
 See: https://wcodes.org/wordlist
 
