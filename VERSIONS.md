@@ -9,7 +9,7 @@ What changed in each version of the WCode wordlist, why, and how old codes keep 
 
 | Version | Date | Words changed | Summary |
 | ---: | --- | ---: | --- |
-| [4](#v4---2026-11-09) | 2026-11-09 | 26 | Removed weapons, crime, disease, plural forms, spelling variants and homophones |
+| [4](#v4---2026-11-09) | 2026-11-09 | 28 | Removed weapons, crime, disease, plural forms, spelling variants, homophones and words with two pronunciations |
 | [3](#v3---2019-05-18) | 2019-05-18 | - | First published list |
 
 ## How versions stay compatible
@@ -26,7 +26,9 @@ A WCode is a list of indexes (0-1023). Each word stands for one index; the index
 
 ## v4 - 2026-11-09
 
-**Why:** A review of the v3 list against the rules found words that are weapons, crime, disease or violence (rule 20), plural or plural-only forms (12, 13), spelling variants (6), homophones (11), and words with two pronunciations (16). 26 were replaced. The other 998 slots are unchanged.
+**Why:** A review of the v3 list against the rules found words that are weapons, crime, disease or violence (rule 20), plural or plural-only forms (12, 13), spelling variants (6), homophones (11), and words with two pronunciations (16). 28 were replaced. The other 996 slots are unchanged.
+
+The draft was then reviewed by a second reviewer (OpenAI Codex), whose suggestions were checked the same way. That review led to better words for four slots (*prison*, *rifle*, *trouser*, *wound*: the first drafts *capsule*, *diagram*, *textile* and *emblem* were abstract, technical or hard to show) and to retiring *lead* and *wind*, which, like *wound*, have two pronunciations (16). The drafts were never published, so they are not aliases: only v3 words are.
 
 **Reading the table:** *Index* is the slot (the data). *Rule* points to [`RULES.md`](RULES.md).
 
@@ -40,11 +42,12 @@ A WCode is a list of indexes (0-1023). Each word stands for one index; the index
 | 235 | death | comet | 20 | Death is morbid. | A neutral sky object. |
 | 250 | disk | pixel | 6 | Spelled *disk* and *disc*. | One spelling; common in everyday tech. |
 | 312 | feet | wagon | 12 | Plural of *foot*, which is also in the list. | Concrete vehicle; singular base form. |
+| 468 | lead | crystal | 16 | Said *leed* (to guide) or *led* (the metal). | Concrete, familiar object; one pronunciation. |
 | 606 | pair | coconut | 11 | Sounds the same as *pear* (kept) and *pare*. | Concrete, familiar fruit. |
 | 610 | pant | wardrobe | 13 | Used almost only in the plural (*pants*). | Concrete furniture; singular. |
 | 661 | plough | harvest | 6, 17 | Spelled *plough* and *plow*; the *ough* spelling does not match the sound. | Regular spelling; farming meaning kept. |
-| 685 | prison | capsule | 20 | Crime and punishment. | Neutral, concrete object. |
-| 720 | rifle | diagram | 20 | Weapon. | Neutral, concrete object. |
+| 685 | prison | burger | 20 | Crime and punishment. | Familiar food everywhere, easy to say and to show (🍔). |
+| 720 | rifle | puzzle | 20 | Weapon. | Concrete toy, easy to show (🧩); spelled as it sounds. |
 | 737 | route | junction | 11, 16 | Said as *root* (a homophone of *root*) or *rout*. | One pronunciation; concrete place. |
 | 754 | scent | cinnamon | 11 | Sounds the same as *cent* and *sent*. | Concrete, familiar spice in India and elsewhere. |
 | 757 | scissor | stripe | 13 | Used almost only in the plural (*scissors*). | Concrete pattern; singular. |
@@ -52,12 +55,13 @@ A WCode is a list of indexes (0-1023). Each word stands for one index; the index
 | 872 | sword | portal | 20, 17 | Weapon; silent *w*. | Neutral; spelled as it sounds. |
 | 877 | tale | sketch | 11 | Sounds the same as *tail*. | Concrete object; no homophone. |
 | 893 | thief | laser | 20 | Crime. | Neutral, concrete object. |
-| 934 | trouser | textile | 13 | Used almost only in the plural (*trousers*). | Concrete material; singular. |
+| 934 | trouser | microphone | 13 | Used almost only in the plural (*trousers*). | Concrete object, easy to show (🎤); no near neighbours. |
 | 963 | venom | harness | 20, 9 | Poison; negative. | Neutral, concrete object. |
 | 981 | war | monument | 20 | Violence. | Neutral, concrete structure. |
 | 986 | weapon | shuttle | 20 | Weapon. | Neutral vehicle (space shuttle, shuttle bus). |
 | 996 | whip | container | 20 | Violence. | Neutral, concrete object. |
-| 1014 | wound | emblem | 20, 16 | Injury; also said *wound* (past tense of *wind*) with a different vowel. | Neutral; one pronunciation. |
+| 1000 | wind | sunrise | 16 | Said *wind* (air) or *wind* (to turn), with different vowels. | Concrete scene, easy to show (🌅); one pronunciation. |
+| 1014 | wound | sticker | 20, 16 | Injury; also said *wound* (past tense of *wind*) with a different vowel. | Concrete, everyday object; one pronunciation. |
 
 **How the new words were checked.** Every new word:
 
@@ -71,9 +75,10 @@ A WCode is a list of indexes (0-1023). Each word stands for one index; the index
 | Check | v3 | v4 |
 | --- | ---: | ---: |
 | Same-pronunciation pairs (CMU) | 4 | 0 |
+| Words with more than one CMU pronunciation | 100 | 96 |
 | Singular/plural pairs | 2 | 0 |
-| Pairs one letter apart | 667 | 638 |
-| Double Metaphone pairs | 1,269 | 1,204 |
+| Pairs one letter apart | 667 | 630 |
+| Double Metaphone pairs | 1,269 | 1,197 |
 | Accent minimal pairs | 18 | 17 |
 
 **Also in v4:**

@@ -473,9 +473,8 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			youth			
 			banner			v4: replaces color (index 190)
 			harvest			v4: replaces plough (index 661)
-			diagram			v4: replaces rifle (index 720)
 			sketch			v4: replaces tale (index 877)
-			emblem			v4: replaces wound (index 1014)
+			sticker			v4: replaces wound (index 1014)
 	Animal					
 		insect				
 			ant			
@@ -636,7 +635,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			jacket			
 			jeans			
 			scarf			
-			textile			v4: replaces trouser (index 934)
 	Colour					
 		*				
 			black			
@@ -732,6 +730,7 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			pickle			
 			pie			
 			pasta			
+			burger			v4: replaces prison (index 685)
 			cinnamon			v4: replaces scent (index 754)
 	Cutlery					
 		*				
@@ -796,6 +795,7 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			chess			
 			skate			
 			puppet			v4: replaces children (index 160)
+			puzzle			v4: replaces rifle (index 720)
 	Plant					
 		*				
 			grass			
@@ -948,9 +948,9 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			toy			
 			gem			
 			doll			
-			capsule			v4: replaces prison (index 685)
 			harness			v4: replaces venom (index 963)
 			container			v4: replaces whip (index 996)
+			crystal			v4: replaces lead (index 468)
 	Weather					
 		*				
 			mist			
@@ -979,7 +979,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			zinc			
 			silicon			
 			plutonium			
-			lead			
 			mercury			
 			tin			
 			titanium			
@@ -1007,6 +1006,7 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			violin			
 			guitar			
 			harmonica			
+			microphone			v4: replaces trouser (index 934)
 	Vegetable					
 		*				
 			cabbage			
@@ -1042,7 +1042,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			tide			
 			thunder			
 			tsunami			
-			wind			
 			coal			
 			sand			
 			magnet			
@@ -1056,6 +1055,7 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			dusk			
 			sea			
 			pearl			
+			sunrise			v4: replaces wind (index 1000)
 	Geography					
 		*				
 			volcano			

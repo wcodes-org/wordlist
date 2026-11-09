@@ -466,7 +466,7 @@ lap
 law
 lawn
 lawyer
-lead
+crystal
 leaf
 left
 leg
@@ -683,7 +683,7 @@ power
 price
 print
 printer
-capsule
+burger
 profit
 proton
 pulsar
@@ -718,7 +718,7 @@ red
 rent
 rhino
 rice
-diagram
+puzzle
 right
 rim
 ring
@@ -932,7 +932,7 @@ tremor
 triangle
 trip
 trophy
-textile
+microphone
 truck
 trunk
 truth
@@ -998,7 +998,7 @@ container
 whistle
 white
 wife
-wind
+sunrise
 window
 wing
 winter
@@ -1012,7 +1012,7 @@ wool
 word
 work
 world
-emblem
+sticker
 wrench
 wrist
 yak
