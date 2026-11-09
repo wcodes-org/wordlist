@@ -29,3 +29,6 @@
 
 /versions/v3.js
   Content-Type: application/javascript; charset=utf-8
+
+/VERSIONS.md
+  Content-Type: text/markdown; charset=utf-8

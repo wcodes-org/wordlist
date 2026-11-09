@@ -1,28 +1,22 @@
 Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 	To be replaced					
 		*				
-			cannon			
 			east			
 			fire			
 			gas			
 			rub			
-			sword			
 			syringe			
 			village			
 			week			
 			west			
 			north			
 			south			
-			cancer			
-			venom			
-			spear			
 			verse			
 			free			
 			horn			
 			live			
 			mask			
 			angle			Angel / Angle
-			death			
 			equator			
 			news			
 			noise			
@@ -37,15 +31,11 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			veil			
 			tremor			
 			atom			
-			wound			
-			whip			
-			war			
 			video			
 			turnip			
 			tape			
 			tank			
 			system			
-			tale			
 			sushi			
 			smell			
 			sink			
@@ -59,22 +49,18 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			punch			
 			blood			
 			army			
-			rifle			
 			smoke			
 			name			
 			place			
 			plane			plain
-			prison			
 			rake			
 			rent			
 			risk			
 			road			
-			route			
 			school			
 			shake			
 			sleet			
 			street			
-			thief			
 	Additional					
 		action				
 			run			
@@ -188,7 +174,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			coach			
 			coil			
 			collar			
-			color			
 			company			
 			concrete			
 			cord			
@@ -213,7 +198,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			diesel			
 			dime			
 			dish			
-			disk			
 			distance			
 			door			
 			drain			
@@ -348,7 +332,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			pack			
 			page			
 			paint			
-			pair			
 			pan			
 			parcel			
 			parent			
@@ -367,7 +350,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			plastic			
 			play			
 			plot			
-			plough			
 			point			
 			pole			
 			port			
@@ -400,7 +382,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			sauce			
 			scale			
 			scene			
-			scent			
 			second			
 			self			
 			shade			
@@ -477,7 +458,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			vest			
 			voice			
 			wallet			
-			weapon			
 			weather			
 			web			
 			weight			
@@ -491,6 +471,11 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			yard			
 			yarn			
 			youth			
+			banner			v4: replaces color (index 190)
+			harvest			v4: replaces plough (index 661)
+			diagram			v4: replaces rifle (index 720)
+			sketch			v4: replaces tale (index 877)
+			emblem			v4: replaces wound (index 1014)
 	Animal					
 		insect				
 			ant			
@@ -610,7 +595,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			hand			
 			muscle			
 			stomach			
-			feet			
 			kidney			
 			cheek			
 			liver			
@@ -644,7 +628,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			cap			
 			frock			
 			pocket			
-			pant			
 			skirt			
 			shirt			
 			shoe			
@@ -652,8 +635,8 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			coat			
 			jacket			
 			jeans			
-			trouser			
 			scarf			
+			textile			v4: replaces trouser (index 934)
 	Colour					
 		*				
 			black			
@@ -708,16 +691,17 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			printer			
 			speaker			
 			shovel			
-			scissor			
 			switch			
 			bag			
 			paper			
 			bucket			
 			key			
 			lock			
+			pixel			v4: replaces disk (index 250)
 	Energy					
 		*				
 			candle			
+			laser			v4: replaces thief (index 893)
 	Flower					
 		*				
 			lily			
@@ -748,6 +732,7 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			pickle			
 			pie			
 			pasta			
+			cinnamon			v4: replaces scent (index 754)
 	Cutlery					
 		*				
 			cup			
@@ -769,6 +754,8 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			papaya			
 			pear			
 			grape			
+			citrus			v4: replaces chili (index 161)
+			coconut			v4: replaces pair (index 606)
 	Furniture					
 		*				
 			bench			
@@ -777,6 +764,7 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			chair			
 			sofa			
 			table			
+			wardrobe			v4: replaces pant (index 610)
 	Vehicle					
 		*				
 			ambulance			
@@ -794,6 +782,8 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			ship			
 			train			
 			jet			
+			wagon			v4: replaces feet (index 312)
+			shuttle			v4: replaces weapon (index 986)
 	Game					
 		*				
 			ball			
@@ -805,6 +795,7 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			dice			
 			chess			
 			skate			
+			puppet			v4: replaces children (index 160)
 	Plant					
 		*				
 			grass			
@@ -842,7 +833,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			woman			
 			man			
 			father			
-			children			
 			brother			
 			wife			
 			mother			
@@ -901,6 +891,7 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			ellipse			
 			device			
 			rectangle			
+			stripe			v4: replaces scissor (index 757)
 	Structure					
 		*				
 			wall			
@@ -925,6 +916,10 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			pillar			
 			pyramid			
 			room			
+			aquarium			v4: replaces cannon (index 123)
+			chamber			v4: replaces spear (index 828)
+			portal			v4: replaces sword (index 872)
+			monument			v4: replaces war (index 981)
 	Stuff					
 		*				
 			marble			
@@ -953,6 +948,9 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			toy			
 			gem			
 			doll			
+			capsule			v4: replaces prison (index 685)
+			harness			v4: replaces venom (index 963)
+			container			v4: replaces whip (index 996)
 	Weather					
 		*				
 			mist			
@@ -1017,7 +1015,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			carrot			
 			cucumber			
 			bean			
-			chili			
 			onion			
 			potato			
 			tomato			
@@ -1081,6 +1078,8 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			coast			
 			desert			
 			ground			
+			marina			v4: replaces cancer (index 120)
+			junction			v4: replaces route (index 737)
 	Space					
 		*				
 			star			
@@ -1092,4 +1091,5 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			meteor			
 			nebula			
 			pulsar			
+			comet			v4: replaces death (index 235)
 

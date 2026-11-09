@@ -33,6 +33,17 @@ function validate(list, aliases) {
         errors.push(`${f}: '${w}' at ${i} is neither current nor a retired alias of ${i}`);
     });
   }
+  // Wordlist.tsv (categorized, for reading) must hold exactly the current words.
+  const tsvPath = path.join(root, 'Wordlist.tsv');
+  if (fs.existsSync(tsvPath)) {
+    const tsvWords = fs.readFileSync(tsvPath, 'utf8').split(/\r?\n/).slice(1)
+      .flatMap((line) => line.split('\t').slice(3, 6)).filter(Boolean);
+    const current = new Set(words);
+    const listed = new Set(tsvWords);
+    if (tsvWords.length !== listed.size) errors.push('Wordlist.tsv lists a word twice');
+    for (const w of current) if (!listed.has(w)) errors.push(`Wordlist.tsv is missing ${w}`);
+    for (const w of listed) if (!current.has(w)) errors.push(`Wordlist.tsv lists ${w}, which is not in wordlist.json`);
+  }
   if (errors.length) throw new Error('Wordlist validation failed:\n- ' + errors.join('\n- '));
 }
 
