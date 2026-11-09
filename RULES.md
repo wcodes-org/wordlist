@@ -105,3 +105,5 @@ e.g. 'Mud' must not use 💩, 'War' must not use 🕊️
 - New words: not in the current list, edit distance >= 2 from every word, no homophone (CMU dict), no Double Metaphone or accent minimal-pair match, not discarded (or re-admitted as above)
 - Native-speaker review for sensitivity in Indian languages
 - Listening test: say, hear and type 3-word codes over a phone call
+
+Current draft: [`v4/`](v4/CHANGES.md)
