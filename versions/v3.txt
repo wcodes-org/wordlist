@@ -118,10 +118,10 @@ camel
 camera
 camp
 canal
-marina
+cancer
 candle
 candy
-aquarium
+cannon
 canvas
 cap
 car
@@ -158,8 +158,8 @@ chess
 chest
 chicken
 child
-puppet
-citrus
+children
+chili
 chimpanzee
 chin
 chocolate
@@ -188,7 +188,7 @@ coffee
 coil
 coin
 collar
-banner
+color
 comb
 company
 compass
@@ -233,7 +233,7 @@ dark
 date
 daughter
 dawn
-comet
+death
 decade
 deck
 degree
@@ -248,7 +248,7 @@ diesel
 dime
 dinosaur
 dish
-pixel
+disk
 distance
 doctor
 dodo
@@ -310,7 +310,7 @@ fax
 feast
 feather
 feel
-wagon
+feet
 fence
 fever
 field
@@ -604,11 +604,11 @@ oyster
 pack
 page
 paint
-coconut
+pair
 palm
 pan
 panda
-wardrobe
+pant
 panther
 papaya
 paper
@@ -659,7 +659,7 @@ platinum
 play
 pleasure
 plot
-harvest
+plough
 plug
 plutonium
 pocket
@@ -683,7 +683,7 @@ power
 price
 print
 printer
-capsule
+prison
 profit
 proton
 pulsar
@@ -718,7 +718,7 @@ red
 rent
 rhino
 rice
-diagram
+rifle
 right
 rim
 ring
@@ -735,7 +735,7 @@ room
 root
 rope
 rose
-junction
+route
 rub
 rule
 run
@@ -752,10 +752,10 @@ sauce
 scale
 scarf
 scene
-cinnamon
+scent
 school
 science
-stripe
+scissor
 screw
 sea
 second
@@ -826,7 +826,7 @@ space
 spade
 spark
 speaker
-chamber
+spear
 sphere
 spider
 spin
@@ -870,12 +870,12 @@ swan
 sweater
 swing
 switch
-portal
+sword
 syringe
 system
 table
 tail
-sketch
+tale
 tank
 tap
 tape
@@ -891,7 +891,7 @@ term
 test
 text
 theory
-laser
+thief
 thigh
 thing
 thorn
@@ -932,7 +932,7 @@ tremor
 triangle
 trip
 trophy
-textile
+trouser
 truck
 trunk
 truth
@@ -961,7 +961,7 @@ vase
 vegetable
 veil
 vein
-harness
+venom
 verse
 vessel
 vest
@@ -979,12 +979,12 @@ waffle
 wall
 wallet
 walrus
-monument
+war
 watch
 water
 wave
 wax
-shuttle
+weapon
 weather
 web
 week
@@ -994,7 +994,7 @@ whale
 wheat
 wheel
 while
-container
+whip
 whistle
 white
 wife
@@ -1012,7 +1012,7 @@ wool
 word
 work
 world
-emblem
+wound
 wrench
 wrist
 yak

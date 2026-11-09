@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "description": "Retired words. Each one still decodes to its index (the slot its replacement now holds). Encoders never output a retired word.",
+  "retired": {
+    "cancer": { "index": 120, "replacement": "marina", "retiredIn": 4 },
+    "cannon": { "index": 123, "replacement": "aquarium", "retiredIn": 4 },
+    "children": { "index": 160, "replacement": "puppet", "retiredIn": 4 },
+    "chili": { "index": 161, "replacement": "citrus", "retiredIn": 4 },
+    "color": { "index": 190, "replacement": "banner", "retiredIn": 4 },
+    "death": { "index": 235, "replacement": "comet", "retiredIn": 4 },
+    "disk": { "index": 250, "replacement": "pixel", "retiredIn": 4 },
+    "feet": { "index": 312, "replacement": "wagon", "retiredIn": 4 },
+    "pair": { "index": 606, "replacement": "coconut", "retiredIn": 4 },
+    "pant": { "index": 610, "replacement": "wardrobe", "retiredIn": 4 },
+    "plough": { "index": 661, "replacement": "harvest", "retiredIn": 4 },
+    "prison": { "index": 685, "replacement": "capsule", "retiredIn": 4 },
+    "rifle": { "index": 720, "replacement": "diagram", "retiredIn": 4 },
+    "route": { "index": 737, "replacement": "junction", "retiredIn": 4 },
+    "scent": { "index": 754, "replacement": "cinnamon", "retiredIn": 4 },
+    "scissor": { "index": 757, "replacement": "stripe", "retiredIn": 4 },
+    "spear": { "index": 828, "replacement": "chamber", "retiredIn": 4 },
+    "sword": { "index": 872, "replacement": "portal", "retiredIn": 4 },
+    "tale": { "index": 877, "replacement": "sketch", "retiredIn": 4 },
+    "thief": { "index": 893, "replacement": "laser", "retiredIn": 4 },
+    "trouser": { "index": 934, "replacement": "textile", "retiredIn": 4 },
+    "venom": { "index": 963, "replacement": "harness", "retiredIn": 4 },
+    "war": { "index": 981, "replacement": "monument", "retiredIn": 4 },
+    "weapon": { "index": 986, "replacement": "shuttle", "retiredIn": 4 },
+    "whip": { "index": 996, "replacement": "container", "retiredIn": 4 },
+    "wound": { "index": 1014, "replacement": "emblem", "retiredIn": 4 }
+  }
+}

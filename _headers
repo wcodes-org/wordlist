@@ -17,3 +17,15 @@
 
 /Wordlist-black.tsv
   Content-Type: text/tab-separated-values; charset=utf-8
+
+/aliases.json
+  Content-Type: application/json; charset=utf-8
+
+/versions/v3.json
+  Content-Type: application/json; charset=utf-8
+
+/versions/v3.txt
+  Content-Type: text/plain; charset=utf-8
+
+/versions/v3.js
+  Content-Type: application/javascript; charset=utf-8

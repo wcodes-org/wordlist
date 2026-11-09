@@ -1,4 +1,12 @@
-[
+/**
+ * WCode Wordlist & Lookup Dictionary
+ * 1024 distinct, phonetically balanced nouns (Base-1024 / 10 bits per word)
+ * Source of truth: https://wordlist.wcodes.org
+ */
+(function(global) {
+  'use strict';
+
+  const WORDS = [
   "act",
   "actor",
   "air",
@@ -119,10 +127,10 @@
   "camera",
   "camp",
   "canal",
-  "marina",
+  "cancer",
   "candle",
   "candy",
-  "aquarium",
+  "cannon",
   "canvas",
   "cap",
   "car",
@@ -159,8 +167,8 @@
   "chest",
   "chicken",
   "child",
-  "puppet",
-  "citrus",
+  "children",
+  "chili",
   "chimpanzee",
   "chin",
   "chocolate",
@@ -189,7 +197,7 @@
   "coil",
   "coin",
   "collar",
-  "banner",
+  "color",
   "comb",
   "company",
   "compass",
@@ -234,7 +242,7 @@
   "date",
   "daughter",
   "dawn",
-  "comet",
+  "death",
   "decade",
   "deck",
   "degree",
@@ -249,7 +257,7 @@
   "dime",
   "dinosaur",
   "dish",
-  "pixel",
+  "disk",
   "distance",
   "doctor",
   "dodo",
@@ -311,7 +319,7 @@
   "feast",
   "feather",
   "feel",
-  "wagon",
+  "feet",
   "fence",
   "fever",
   "field",
@@ -605,11 +613,11 @@
   "pack",
   "page",
   "paint",
-  "coconut",
+  "pair",
   "palm",
   "pan",
   "panda",
-  "wardrobe",
+  "pant",
   "panther",
   "papaya",
   "paper",
@@ -660,7 +668,7 @@
   "play",
   "pleasure",
   "plot",
-  "harvest",
+  "plough",
   "plug",
   "plutonium",
   "pocket",
@@ -684,7 +692,7 @@
   "price",
   "print",
   "printer",
-  "capsule",
+  "prison",
   "profit",
   "proton",
   "pulsar",
@@ -719,7 +727,7 @@
   "rent",
   "rhino",
   "rice",
-  "diagram",
+  "rifle",
   "right",
   "rim",
   "ring",
@@ -736,7 +744,7 @@
   "root",
   "rope",
   "rose",
-  "junction",
+  "route",
   "rub",
   "rule",
   "run",
@@ -753,10 +761,10 @@
   "scale",
   "scarf",
   "scene",
-  "cinnamon",
+  "scent",
   "school",
   "science",
-  "stripe",
+  "scissor",
   "screw",
   "sea",
   "second",
@@ -827,7 +835,7 @@
   "spade",
   "spark",
   "speaker",
-  "chamber",
+  "spear",
   "sphere",
   "spider",
   "spin",
@@ -871,12 +879,12 @@
   "sweater",
   "swing",
   "switch",
-  "portal",
+  "sword",
   "syringe",
   "system",
   "table",
   "tail",
-  "sketch",
+  "tale",
   "tank",
   "tap",
   "tape",
@@ -892,7 +900,7 @@
   "test",
   "text",
   "theory",
-  "laser",
+  "thief",
   "thigh",
   "thing",
   "thorn",
@@ -933,7 +941,7 @@
   "triangle",
   "trip",
   "trophy",
-  "textile",
+  "trouser",
   "truck",
   "trunk",
   "truth",
@@ -962,7 +970,7 @@
   "vegetable",
   "veil",
   "vein",
-  "harness",
+  "venom",
   "verse",
   "vessel",
   "vest",
@@ -980,12 +988,12 @@
   "wall",
   "wallet",
   "walrus",
-  "monument",
+  "war",
   "watch",
   "water",
   "wave",
   "wax",
-  "shuttle",
+  "weapon",
   "weather",
   "web",
   "week",
@@ -995,7 +1003,7 @@
   "wheat",
   "wheel",
   "while",
-  "container",
+  "whip",
   "whistle",
   "white",
   "wife",
@@ -1013,7 +1021,7 @@
   "word",
   "work",
   "world",
-  "emblem",
+  "wound",
   "wrench",
   "wrist",
   "yak",
@@ -1023,4 +1031,54 @@
   "youth",
   "zebra",
   "zinc"
-]
+];
+
+  const WORD_INDEX = new Map();
+  for (let i = 0; i < WORDS.length; i++) {
+    WORD_INDEX.set(WORDS[i], i);
+  }
+
+  const WCodeDictionary = {
+    WORDS,
+    WORD_INDEX,
+    size: WORDS.length,
+
+    getWord(index) {
+      if (index >= 0 && index < WORDS.length) {
+        return WORDS[index];
+      }
+      return null;
+    },
+
+    getIndex(word) {
+      if (!word) return -1;
+      const idx = WORD_INDEX.get(word.trim().toLowerCase());
+      return idx !== undefined ? idx : -1;
+    },
+
+    isValid(word) {
+      if (!word) return false;
+      return WORD_INDEX.has(word.trim().toLowerCase());
+    },
+
+    suggest(prefix, max = 8) {
+      if (!prefix) return [];
+      const clean = prefix.trim().toLowerCase();
+      if (!clean) return [];
+      const results = [];
+      for (let i = 0; i < WORDS.length; i++) {
+        if (WORDS[i].startsWith(clean)) {
+          results.push(WORDS[i]);
+          if (results.length >= max) break;
+        }
+      }
+      return results;
+    }
+  };
+
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = WCodeDictionary;
+  } else {
+    global.WCodeDictionary = WCodeDictionary;
+  }
+})(typeof window !== 'undefined' ? window : globalThis);

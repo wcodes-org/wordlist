@@ -85,25 +85,28 @@ e.g. 'Mud' must not use 💩, 'War' must not use 🕊️
 
 ### Versioning:
 
-- Any word replacement changes what a slot is called, so it needs a new dictionary version (`v4/`, `v5/`, ...). Never edit the live root files in place
-- Old codes must still decode: a new version lists the retired word as an alias of its slot (`aliases.json`, in Wolo's `[primary, ...aliases]` format)
-- Encoders only output the primary (newest) word
-- Decoders are updated to accept aliases before the root files are switched to a new version
-- A retired word is never reused for a different slot
+- Any word replacement changes what a slot is called, so it needs a new dictionary version. The index (the data) never changes
+- The root `wordlist.json` is always the latest version: `{ "version": N, "size": 1024, "words": [...] }`. Older versions are kept in `versions/` (`versions/v3.json` is the original plain array)
+- Old codes must still decode: every retired word is listed in `aliases.json` with its index and replacement. Decoders accept it as that index
+- Encoders only output words from the latest `words`
+- A retired word is never reused, for any slot
+- Each version is described in `CHANGES.md`
+- Decoders that read `wordlist.json` must accept both the object and the old plain-array form, and treat a plain array as version 3
+- Edit `wordlist.json` and `aliases.json` only, then run `node scripts/build.js` (regenerates `wordlist.txt` and `wordlist.js`) and `node --test test/wordlist.test.js`
 
 ### Discarded words:
 
 - [`Wordlist-black.tsv`](Wordlist-black.tsv) lists 5045 words considered and discarded. Reasons were not recorded
 - A replacement is taken from outside this list by default
-- To re-admit a discarded word: record why it was discarded (or that the reason is unknown), show it passes every rule above and the checks below, and note it in that version's `CHANGES.md`
+- To re-admit a discarded word: record why it was discarded (or that the reason is unknown), show it passes every rule above and the checks below, and note it in `CHANGES.md`
 - From now on, record the reason in the 'Remark' column when discarding a word
 
 ### Checks for every new version:
 
 - 1024 unique words, lowercase ASCII, 3-10 letters
-- Every changed slot keeps its index; no other slot changes
+- Every changed slot keeps its index; no other slot changes (`node scripts/build.js` checks this against every file in `versions/`)
 - New words: not in the current list, edit distance >= 2 from every word, no homophone (CMU dict), no Double Metaphone or accent minimal-pair match, not discarded (or re-admitted as above)
 - Native-speaker review for sensitivity in Indian languages
 - Listening test: say, hear and type 3-word codes over a phone call
 
-Current draft: [`v4/`](v4/CHANGES.md)
+Current version: 4 - see [CHANGES.md](CHANGES.md)
