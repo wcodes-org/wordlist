@@ -32,3 +32,9 @@
 
 /VERSIONS.md
   Content-Type: text/markdown; charset=utf-8
+
+/LICENSE
+  Content-Type: text/plain; charset=utf-8
+
+/LICENSE-CODE
+  Content-Type: text/plain; charset=utf-8
