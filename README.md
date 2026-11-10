@@ -2,6 +2,8 @@
 
 List of 1024 simple words for encoding small digital data for humans in-between
 
+Published to the public domain (CC0 1.0). See [LICENSE](LICENSE).
+
 App: https://wcodes.org
 
 Canonical files: https://wordlist.wcodes.org
@@ -18,6 +20,6 @@ See [VERSIONS.md](VERSIONS.md) - what changed in each version, why, and how old 
 
 ### License
 
-Wordlist data and documentation (including `wordlist.json`, `wordlist.txt`, `wordlist.js`, `Wordlist.tsv`, `aliases.json`, `RULES.md`, `VERSIONS.md`, and this README) are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Attribution: wcodes.org / Ujjwal Singh. See [LICENSE](LICENSE).
+Wordlist data and documentation (including `wordlist.json`, `wordlist.txt`, `wordlist.js`, `Wordlist.tsv`, `aliases.json`, `RULES.md`, `VERSIONS.md`, and this README) are dedicated to the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). See [LICENSE](LICENSE).
 
 Code in `scripts/` and `test/` is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). See [LICENSE-CODE](LICENSE-CODE).
