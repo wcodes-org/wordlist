@@ -3,6 +3,10 @@
 Words that are not used in the current list. Retired words still decode: each one maps to a replacement at the same index. NATO phonetic alphabet words are never allowed (rule 22) and are not aliases.
 
 
+### Retired in v5 (2026-11-11)
+
+- `jeep` — brand name (rule 20). Replaced by `scooter`.
+
 ### Retired in v4 (2026-11-09)
 
 - `cancer` — disease (rule 20). Replaced by `marina`.

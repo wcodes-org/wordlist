@@ -30,6 +30,15 @@
 /versions/v3.js
   Content-Type: application/javascript; charset=utf-8
 
+/versions/v4.json
+  Content-Type: application/json; charset=utf-8
+
+/versions/v4.txt
+  Content-Type: text/plain; charset=utf-8
+
+/versions/v4.js
+  Content-Type: application/javascript; charset=utf-8
+
 /VERSIONS.md
   Content-Type: text/markdown; charset=utf-8
 

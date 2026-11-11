@@ -25,9 +25,6 @@ This is not a decision that every word below will be replaced. Some items are em
 - `tremor` — disaster / medical
 - `uranium` — weapons-adjacent
 
-### Brand names (rule 20)
-
-- `jeep` — a brand name
 
 ### More than one pronunciation (rule 16)
 

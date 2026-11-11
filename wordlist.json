@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "size": 1024,
   "bitsPerWord": 10,
   "aliases": "aliases.json",
@@ -440,7 +440,7 @@
     "jar",
     "jaw",
     "jeans",
-    "jeep",
+    "scooter",
     "jelly",
     "jet",
     "jewel",

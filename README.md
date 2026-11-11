@@ -24,7 +24,7 @@ See [BLACKLIST.md](BLACKLIST.md) - retired words (still decode via a replacement
 
 ### Versions:
 
-See [VERSIONS.md](VERSIONS.md) - what changed in each version, why, and how old codes keep decoding. Current version: 4
+See [VERSIONS.md](VERSIONS.md) - what changed in each version, why, and how old codes keep decoding. Current version: 5
 
 ### License
 

@@ -9,6 +9,7 @@ What changed in each version of the WCode wordlist, why, and how old codes keep 
 
 | Version | Date | Words changed | Summary |
 | ---: | --- | ---: | --- |
+| [5](#v5---2026-11-11) | 2026-11-11 | 1 | Replaced *jeep* (a brand name) with *scooter* |
 | [4](#v4---2026-11-09) | 2026-11-09 | 28 | Removed weapons, crime, disease, plural forms, spelling variants, homophones and words with two pronunciations |
 | [3](#v3---2019-05-18) | 2019-05-18 | - | First published list |
 
@@ -23,6 +24,27 @@ A WCode is a list of indexes (0-1023). Each word stands for one index; the index
 - **Old clients keep working.** Until v3, the root `wordlist.json` was a plain array. From v4 it is an object (`{ "version", "size", "words" }`). A decoder that still expects an array ignores the new file and keeps its bundled v3 list. It then reads v3 codes, but not codes that use a new v4 word.
 
 `wordlist.js` gives apps this behaviour directly: `getIndex('death') === getIndex('comet') === 235`, `canonical('death') === 'comet'`, `isRetired('death') === true`.
+
+## v5 - 2026-11-11
+
+**Why:** *jeep* is a brand name (rule 20). It is replaced at the same index by *scooter*, a concrete vehicle. The other 1,023 slots are unchanged.
+
+*scooter* was previously in the discarded list [`Wordlist-black.tsv`](Wordlist-black.tsv) (reason not recorded). It is re-admitted here because it passes the current checks, is a familiar everyday vehicle (especially in India, rule 18), and has a unique emoji (🛵).
+
+**Reading the table:** *Index* is the slot (the data). *Rule* points to [`RULES.md`](RULES.md).
+
+| Index | Old word (v4) | New word (v5) | Rule | Why the old word went | Why the new word |
+| ---: | --- | --- | --- | --- | --- |
+| 436 | jeep | scooter | 20 | Brand name. | Concrete vehicle; common and familiar, including in India; one pronunciation; unique emoji (🛵). |
+
+**How the new word was checked.** Same checks as v4, except *scooter* is a recorded re-admission from the discarded list (reason originally unknown). It is not a NATO phonetic alphabet word (rule 22), and it has no edit-distance, homophone, Double Metaphone or accent-pair clash with any current, v3 or retired word, or with the greylist.
+
+**Also in v5:**
+
+- The v4 files moved to [`versions/v4.json`](versions/v4.json), [`v4.txt`](versions/v4.txt) and [`v4.js`](versions/v4.js).
+- [`aliases.json`](aliases.json) records *jeep* as retired in 5, still decoding to index 436.
+- *jeep* was removed from [`GREYLIST.md`](GREYLIST.md) and added to [`BLACKLIST.md`](BLACKLIST.md).
+- *scooter* was removed from [`Wordlist-black.tsv`](Wordlist-black.tsv).
 
 ## v4 - 2026-11-09
 

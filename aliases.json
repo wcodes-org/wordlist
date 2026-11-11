@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "description": "Retired words. Each one still decodes to its index (the slot its replacement now holds). Encoders never output a retired word.",
   "retired": {
     "cancer": { "index": 120, "replacement": "marina", "retiredIn": 4 },
@@ -10,6 +10,7 @@
     "death": { "index": 235, "replacement": "comet", "retiredIn": 4 },
     "disk": { "index": 250, "replacement": "pixel", "retiredIn": 4 },
     "feet": { "index": 312, "replacement": "wagon", "retiredIn": 4 },
+    "jeep": { "index": 436, "replacement": "scooter", "retiredIn": 5 },
     "lead": { "index": 468, "replacement": "crystal", "retiredIn": 4 },
     "pair": { "index": 606, "replacement": "coconut", "retiredIn": 4 },
     "pant": { "index": 610, "replacement": "wardrobe", "retiredIn": 4 },

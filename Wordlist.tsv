@@ -299,7 +299,7 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			bus			
 			carriage			
 			helicopter			
-			jeep			
+			scooter			v5: replaces jeep (index 436)
 			truck			
 			van			
 			ship			

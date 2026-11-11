@@ -32,9 +32,20 @@ test("a retired word decodes to its replacement's index ('death' == 'comet')", (
   assert.ok(!dict.suggest('dea').includes('death'));
 });
 
-test('every v3 word decodes to its v3 index; encoding uses v4 words', () => {
+test('every v3 word decodes to its v3 index; encoding uses current words', () => {
   v3.forEach((w, i) => assert.equal(dict.getIndex(w), i, w));
   list.words.forEach((w, i) => assert.equal(dict.getWord(i), w));
+});
+
+test('every v4 word decodes to its v4 index; jeep is retired in favour of scooter', () => {
+  const v4 = read('versions/v4.json');
+  const v4Words = Array.isArray(v4) ? v4 : v4.words;
+  assert.equal(v4.version, 4);
+  assert.equal(v4Words[436], 'jeep');
+  v4Words.forEach((w, i) => assert.equal(dict.getIndex(w), i, w));
+  assert.equal(dict.getWord(436), 'scooter');
+  assert.equal(dict.canonical('jeep'), 'scooter');
+  assert.ok(dict.isRetired('jeep'));
 });
 
 test('current words are not in the NATO phonetic alphabet', () => {
