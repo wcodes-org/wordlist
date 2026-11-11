@@ -23,6 +23,17 @@ function natoKey(word) {
   return String(word).toLowerCase().replace(/-/g, '');
 }
 
+function parseCandidates(markdown) {
+  const words = [];
+  for (const line of markdown.split(/\r?\n/)) {
+    const m = line.match(/^-\s+((?:`[a-z]+`(?:,\s*)?)+)/);
+    if (!m) continue;
+    for (const wm of m[1].matchAll(/`([a-z]+)`/g))
+      words.push(wm[1]);
+  }
+  return words;
+}
+
 function validate(list, aliases) {
   const errors = [];
   const words = list.words;
@@ -35,6 +46,13 @@ function validate(list, aliases) {
     .map((w, i) => NATO_WORDS.has(natoKey(w)) ? `${w} (${i})` : null)
     .filter(Boolean);
   if (natoHits.length) errors.push('NATO phonetic alphabet word(s): ' + natoHits.join(', '));
+  const candidatesPath = path.join(root, 'CANDIDATES.md');
+  if (fs.existsSync(candidatesPath)) {
+    const listed = parseCandidates(fs.readFileSync(candidatesPath, 'utf8'));
+    const current = new Set(words);
+    const missing = [...new Set(listed)].filter((w) => !current.has(w));
+    if (missing.length) errors.push('CANDIDATES.md lists words not in wordlist.json: ' + missing.join(', '));
+  }
   if (aliases.version !== list.version) errors.push('aliases.json version differs from wordlist.json');
   for (const [word, entry] of Object.entries(aliases.retired)) {
     if (words.includes(word)) errors.push(`retired word still active: ${word}`);
@@ -170,4 +188,4 @@ function main() {
 }
 
 if (require.main === module) main();
-module.exports = { validate, NATO_WORDS, natoKey };
+module.exports = { validate, NATO_WORDS, natoKey, parseCandidates };

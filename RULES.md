@@ -97,7 +97,12 @@ e.g. 'Mud' must not use 💩, 'War' must not use 🕊️
 - Decoders that read `wordlist.json` must accept both the object and the old plain-array form, and treat a plain array as version 3
 - Edit `wordlist.json`, `aliases.json` and `Wordlist.tsv` only, then run `node scripts/build.js` (regenerates `wordlist.txt` and `wordlist.js`) and `node --test test/wordlist.test.js`
 
+### Words under review:
+
+- Some current words may be replaced, or have their emoji fixed, in a later version. They stay in the live list until then. See [`CANDIDATES.md`](CANDIDATES.md)
+
 ### Discarded words:
+
 
 - [`Wordlist-black.tsv`](Wordlist-black.tsv) lists 5045 words considered and discarded. Reasons were not recorded
 - A replacement is taken from outside this list by default

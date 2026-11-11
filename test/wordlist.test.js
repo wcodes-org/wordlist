@@ -41,3 +41,10 @@ test('current words are not in the NATO phonetic alphabet', () => {
   const { NATO_WORDS, natoKey } = require(path.join(root, 'scripts/build.js'));
   assert.deepEqual(list.words.filter((w) => NATO_WORDS.has(natoKey(w))), []);
 });
+
+test('CANDIDATES.md only lists current words', () => {
+  const { parseCandidates } = require(path.join(root, 'scripts/build.js'));
+  const listed = parseCandidates(fs.readFileSync(path.join(root, 'CANDIDATES.md'), 'utf8'));
+  assert.ok(listed.length > 0);
+  listed.forEach((w) => assert.ok(list.words.includes(w), w));
+});
