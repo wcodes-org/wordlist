@@ -46,12 +46,26 @@ function validate(list, aliases) {
     .map((w, i) => NATO_WORDS.has(natoKey(w)) ? `${w} (${i})` : null)
     .filter(Boolean);
   if (natoHits.length) errors.push('NATO phonetic alphabet word(s): ' + natoHits.join(', '));
-  const candidatesPath = path.join(root, 'CANDIDATES.md');
-  if (fs.existsSync(candidatesPath)) {
-    const listed = parseCandidates(fs.readFileSync(candidatesPath, 'utf8'));
-    const current = new Set(words);
+  const current = new Set(words);
+  const greylistPath = path.join(root, 'GREYLIST.md');
+  if (fs.existsSync(greylistPath)) {
+    const listed = parseCandidates(fs.readFileSync(greylistPath, 'utf8'));
     const missing = [...new Set(listed)].filter((w) => !current.has(w));
-    if (missing.length) errors.push('CANDIDATES.md lists words not in wordlist.json: ' + missing.join(', '));
+    if (missing.length) errors.push('GREYLIST.md lists words not in wordlist.json: ' + missing.join(', '));
+  }
+  const blacklistPath = path.join(root, 'BLACKLIST.md');
+  if (fs.existsSync(blacklistPath)) {
+    const listed = [...new Set(parseCandidates(fs.readFileSync(blacklistPath, 'utf8')))];
+    const retired = Object.keys(aliases.retired);
+    for (const w of retired) {
+      if (!listed.includes(w)) errors.push('BLACKLIST.md is missing retired word: ' + w);
+    }
+    const natoListed = listed.filter((w) => NATO_WORDS.has(natoKey(w)));
+    const retiredSet = new Set(retired);
+    const leftover = listed.filter((w) => !retiredSet.has(w) && !NATO_WORDS.has(natoKey(w)));
+    if (leftover.length) errors.push('BLACKLIST.md lists words that are neither retired nor NATO: ' + leftover.join(', '));
+    const stillCurrent = listed.filter((w) => current.has(w));
+    if (stillCurrent.length) errors.push('BLACKLIST.md lists current wordlist.json words: ' + stillCurrent.join(', '));
   }
   if (aliases.version !== list.version) errors.push('aliases.json version differs from wordlist.json');
   for (const [word, entry] of Object.entries(aliases.retired)) {

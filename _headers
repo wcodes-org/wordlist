@@ -33,6 +33,12 @@
 /VERSIONS.md
   Content-Type: text/markdown; charset=utf-8
 
+/GREYLIST.md
+  Content-Type: text/markdown; charset=utf-8
+
+/BLACKLIST.md
+  Content-Type: text/markdown; charset=utf-8
+
 /CANDIDATES.md
   Content-Type: text/markdown; charset=utf-8
 

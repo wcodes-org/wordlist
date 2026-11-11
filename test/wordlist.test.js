@@ -42,9 +42,20 @@ test('current words are not in the NATO phonetic alphabet', () => {
   assert.deepEqual(list.words.filter((w) => NATO_WORDS.has(natoKey(w))), []);
 });
 
-test('CANDIDATES.md only lists current words', () => {
+test('GREYLIST.md only lists current words', () => {
   const { parseCandidates } = require(path.join(root, 'scripts/build.js'));
-  const listed = parseCandidates(fs.readFileSync(path.join(root, 'CANDIDATES.md'), 'utf8'));
+  const listed = parseCandidates(fs.readFileSync(path.join(root, 'GREYLIST.md'), 'utf8'));
   assert.ok(listed.length > 0);
   listed.forEach((w) => assert.ok(list.words.includes(w), w));
+});
+
+test('BLACKLIST.md covers every retired word and no current words', () => {
+  const { parseCandidates, NATO_WORDS, natoKey } = require(path.join(root, 'scripts/build.js'));
+  const listed = [...new Set(parseCandidates(fs.readFileSync(path.join(root, 'BLACKLIST.md'), 'utf8')))];
+  const retired = Object.keys(aliases.retired);
+  retired.forEach((w) => assert.ok(listed.includes(w), 'missing retired ' + w));
+  listed.forEach((w) => {
+    assert.ok(!list.words.includes(w), 'current word in blacklist: ' + w);
+    assert.ok(w in aliases.retired || NATO_WORDS.has(natoKey(w)), 'unexpected blacklist word: ' + w);
+  });
 });

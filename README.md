@@ -14,9 +14,13 @@ See also: https://wcodes.org/wordlist
 
 See [RULES.md](RULES.md) - the canonical rules, also shown on https://wcodes.org/wordlist
 
-### Words under review:
+### Greylist:
 
-See [CANDIDATES.md](CANDIDATES.md) - current words that may be replaced, or whose emoji need work, in a later version.
+See [GREYLIST.md](GREYLIST.md) - current words that may be replaced, or whose emoji need work, in a later version.
+
+### Blacklist:
+
+See [BLACKLIST.md](BLACKLIST.md) - retired words (still decode via a replacement) and words that are never allowed, including the NATO phonetic alphabet (rule 22).
 
 ### Versions:
 
@@ -24,6 +28,6 @@ See [VERSIONS.md](VERSIONS.md) - what changed in each version, why, and how old 
 
 ### License
 
-Wordlist data and documentation (including `wordlist.json`, `wordlist.txt`, `wordlist.js`, `Wordlist.tsv`, `aliases.json`, `RULES.md`, `CANDIDATES.md`, `VERSIONS.md`, and this README) are dedicated to the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). See [LICENSE](LICENSE).
+Wordlist data and documentation (including `wordlist.json`, `wordlist.txt`, `wordlist.js`, `Wordlist.tsv`, `aliases.json`, `RULES.md`, `GREYLIST.md`, `BLACKLIST.md`, `VERSIONS.md`, and this README) are dedicated to the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). See [LICENSE](LICENSE).
 
 Code in `scripts/` and `test/` is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). See [LICENSE-CODE](LICENSE-CODE).
