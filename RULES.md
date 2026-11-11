@@ -102,19 +102,18 @@ e.g. 'Mud' must not use 💩, 'War' must not use 🕊️
 - Some current words may be replaced, or have their emoji fixed, in a later version. They stay in the live list until then. See [`GREYLIST.md`](GREYLIST.md)
 - Retired words, and words that are never allowed (including the NATO phonetic alphabet), are listed in [`BLACKLIST.md`](BLACKLIST.md)
 
-### Discarded words:
+### Rejectlist:
 
-
-- [`Wordlist-black.tsv`](Wordlist-black.tsv) lists 5045 words considered and discarded. Reasons were not recorded
+- [`Wordlist-black.tsv`](Wordlist-black.tsv) is the rejectlist: words considered for the list and not used. Reasons were not recorded for the existing entries. The filename is unchanged so existing links keep working.
 - A replacement is taken from outside this list by default
-- To re-admit a discarded word: record why it was discarded (or that the reason is unknown), show it passes every rule above and the checks below, and note it in `VERSIONS.md`
-- From now on, record the reason in the 'Remark' column when discarding a word
+- A rejectlist word can only be re-admitted after a fresh review: record why it was rejected (or that the reason is unknown), show it passes every rule above and the checks below, and note it in `VERSIONS.md`
+- From now on, record the reason in the 'Remark' column when adding a word to the rejectlist
 
 ### Checks for every new version:
 
 - 1024 unique words, lowercase ASCII, 3-10 letters
 - Every changed slot keeps its index; no other slot changes (`node scripts/build.js` checks this against every file in `versions/`)
-- New words: not in the current list, not a NATO phonetic alphabet word (rule 22), edit distance >= 2 from every word, no homophone (CMU dict), no Double Metaphone or accent minimal-pair match, not discarded (or re-admitted as above)
+- New words: not in the current list, not a NATO phonetic alphabet word (rule 22), edit distance >= 2 from every word, no homophone (CMU dict), no Double Metaphone or accent minimal-pair match, not on the rejectlist (or re-admitted as above)
 - Native-speaker review for sensitivity in Indian languages
 - Listening test: say, hear and type 3-word codes over a phone call
 

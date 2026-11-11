@@ -68,3 +68,9 @@ Spelling a code aloud with the NATO alphabet would conflict with wordlist words.
 - `xray` — also spelled “x-ray”
 - `yankee`
 - `zulu`
+
+### Rejectlist
+
+Words considered for the list and not used. They are not aliases: they do not decode, and they have no replacement. The word inventory is kept in [`Wordlist-black.tsv`](Wordlist-black.tsv) (the filename is unchanged so existing URLs and tools keep working). Reasons were not recorded for the existing entries. When a word is added to the rejectlist from now on, the reason goes in that file's Remark column.
+
+A rejectlist word can only be re-admitted after a fresh review against the current rules, and a note in [`VERSIONS.md`](VERSIONS.md). See [RULES.md](RULES.md).

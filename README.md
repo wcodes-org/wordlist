@@ -20,7 +20,7 @@ See [GREYLIST.md](GREYLIST.md) - current words that may be replaced, or whose em
 
 ### Blacklist:
 
-See [BLACKLIST.md](BLACKLIST.md) - retired words (still decode via a replacement) and words that are never allowed, including the NATO phonetic alphabet (rule 22).
+See [BLACKLIST.md](BLACKLIST.md) - retired words (still decode via a replacement), words that are never allowed, including the NATO phonetic alphabet (rule 22), and the rejectlist of words considered and not used ([`Wordlist-black.tsv`](Wordlist-black.tsv)).
 
 ### Versions:
 
