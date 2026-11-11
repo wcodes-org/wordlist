@@ -1,13 +1,16 @@
 # Blacklist
 
-Words that are not used in the current list. Retired words still decode: each one maps to a replacement at the same index. NATO phonetic alphabet words are never allowed (rule 22) and are not aliases.
+Words that are not used in the current list, in two groups: words that were once in the main list, and words that never were.
 
+### Rejected
 
-### Retired in v5 (2026-11-11)
+Words that were previously in the main list and have been replaced. Each one still decodes: it maps to a replacement at the same index.
+
+#### v5 (2026-11-11)
 
 - `jeep` — brand name (rule 20). Replaced by `scooter`.
 
-### Retired in v4 (2026-11-09)
+#### v4 (2026-11-09)
 
 - `cancer` — disease (rule 20). Replaced by `marina`.
 - `cannon` — weapon; sounds the same as “canon” (rules 20, 11). Replaced by `aquarium`.
@@ -38,7 +41,11 @@ Words that are not used in the current list. Retired words still decode: each on
 - `wind` — two pronunciations, air or “to turn” (rule 16). Replaced by `sunrise`.
 - `wound` — injury; also the past tense of `wind`, with a different vowel (rules 20, 16). Replaced by `sticker`.
 
-### Never allowed: NATO phonetic alphabet (rule 22)
+### Blacklist
+
+Words that were never in the main list. They are not aliases: they do not decode, and they have no replacement.
+
+#### NATO phonetic alphabet (rule 22)
 
 Spelling a code aloud with the NATO alphabet would conflict with wordlist words. These are not used, and they have no replacement.
 
@@ -69,8 +76,8 @@ Spelling a code aloud with the NATO alphabet would conflict with wordlist words.
 - `yankee`
 - `zulu`
 
-### Rejectlist
+#### Considered and not used
 
-Words considered for the list and not used. They are not aliases: they do not decode, and they have no replacement. The word inventory is kept in [`Wordlist-black.tsv`](Wordlist-black.tsv) (the filename is unchanged so existing URLs and tools keep working). Reasons were not recorded for the existing entries. When a word is added to the rejectlist from now on, the reason goes in that file's Remark column.
+The rest of this list is in [`Wordlist-black.tsv`](Wordlist-black.tsv) (the filename is unchanged so existing URLs and tools keep working). Reasons were not recorded for the existing entries. When a word is added from now on, the reason goes in that file's Remark column.
 
-A rejectlist word can only be re-admitted after a fresh review against the current rules, and a note in [`VERSIONS.md`](VERSIONS.md). See [RULES.md](RULES.md).
+A blacklisted word can only be re-admitted after a fresh review against the current rules, and a note in [`VERSIONS.md`](VERSIONS.md). See [RULES.md](RULES.md).

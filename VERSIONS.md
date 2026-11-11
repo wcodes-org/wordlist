@@ -29,7 +29,7 @@ A WCode is a list of indexes (0-1023). Each word stands for one index; the index
 
 **Why:** *jeep* is a brand name (rule 20). It is replaced at the same index by *scooter*, a concrete vehicle. The other 1,023 slots are unchanged.
 
-*scooter* was previously in the rejectlist [`Wordlist-black.tsv`](Wordlist-black.tsv) (reason not recorded). It is re-admitted here because it passes the current checks, is a familiar everyday vehicle (especially in India, rule 18), and has a unique emoji (🛵).
+*scooter* was previously in [`Wordlist-black.tsv`](Wordlist-black.tsv) (reason not recorded). It is re-admitted here because it passes the current checks, is a familiar everyday vehicle (especially in India, rule 18), and has a unique emoji (🛵).
 
 **Reading the table:** *Index* is the slot (the data). *Rule* points to [`RULES.md`](RULES.md).
 
@@ -37,7 +37,7 @@ A WCode is a list of indexes (0-1023). Each word stands for one index; the index
 | ---: | --- | --- | --- | --- | --- |
 | 436 | jeep | scooter | 20 | Brand name. | Concrete vehicle; common and familiar, including in India; one pronunciation; unique emoji (🛵). |
 
-**How the new word was checked.** Same checks as v4, except *scooter* is a recorded re-admission from the rejectlist (reason originally unknown). It is not a NATO phonetic alphabet word (rule 22), and it has no edit-distance, homophone, Double Metaphone or accent-pair clash with any current, v3 or retired word, or with the greylist.
+**How the new word was checked.** Same checks as v4, except *scooter* is a recorded re-admission from Wordlist-black.tsv (reason originally unknown). It is not a NATO phonetic alphabet word (rule 22), and it has no edit-distance, homophone, Double Metaphone or accent-pair clash with any current, v3 or retired word, or with the greylist.
 
 **Also in v5:**
 
@@ -87,7 +87,7 @@ The draft was then reviewed by a second reviewer (OpenAI Codex), whose suggestio
 
 **How the new words were checked.** Every new word:
 
-- is not already in the list, and not in the rejectlist [`Wordlist-black.tsv`](Wordlist-black.tsv);
+- is not already in the list, and not in [`Wordlist-black.tsv`](Wordlist-black.tsv);
 - is a common, concrete, singular noun of 3-10 letters (English Zipf frequency >= 3.5, in the CMU pronouncing dictionary);
 - is at least 2 letters different from every other word (edit distance >= 2);
 - has no homophone, Double Metaphone match or common Indian English accent minimal pair (v/w, s/sh, z/j, th/t, short/long vowels) with any other word.

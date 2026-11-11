@@ -100,20 +100,20 @@ e.g. 'Mud' must not use 💩, 'War' must not use 🕊️
 ### Greylist:
 
 - Some current words may be replaced, or have their emoji fixed, in a later version. They stay in the live list until then. See [`GREYLIST.md`](GREYLIST.md)
-- Retired words, and words that are never allowed (including the NATO phonetic alphabet), are listed in [`BLACKLIST.md`](BLACKLIST.md)
 
-### Rejectlist:
+### Blacklist:
 
-- [`Wordlist-black.tsv`](Wordlist-black.tsv) is the rejectlist: words considered for the list and not used. Reasons were not recorded for the existing entries. The filename is unchanged so existing links keep working.
-- A replacement is taken from outside this list by default
-- A rejectlist word can only be re-admitted after a fresh review: record why it was rejected (or that the reason is unknown), show it passes every rule above and the checks below, and note it in `VERSIONS.md`
-- From now on, record the reason in the 'Remark' column when adding a word to the rejectlist
+- Words that are not in the current list are described in [`BLACKLIST.md`](BLACKLIST.md). Those that were previously in the main list and were replaced still decode via a replacement in `aliases.json`.
+- Words that were never in the main list — the NATO phonetic alphabet (rule 22), and words considered and not used, in [`Wordlist-black.tsv`](Wordlist-black.tsv) — are not aliases. Reasons were not recorded for the existing Wordlist-black.tsv entries. The filename is unchanged so existing links keep working.
+- A replacement is taken from outside Wordlist-black.tsv by default
+- A blacklisted word can only be re-admitted after a fresh review: record why it was blacklisted (or that the reason is unknown), show it passes every rule above and the checks below, and note it in `VERSIONS.md`
+- From now on, record the reason in the 'Remark' column when adding a word to Wordlist-black.tsv
 
 ### Checks for every new version:
 
 - 1024 unique words, lowercase ASCII, 3-10 letters
 - Every changed slot keeps its index; no other slot changes (`node scripts/build.js` checks this against every file in `versions/`)
-- New words: not in the current list, not a NATO phonetic alphabet word (rule 22), edit distance >= 2 from every word, no homophone (CMU dict), no Double Metaphone or accent minimal-pair match, not on the rejectlist (or re-admitted as above)
+- New words: not in the current list, not a NATO phonetic alphabet word (rule 22), edit distance >= 2 from every word, no homophone (CMU dict), no Double Metaphone or accent minimal-pair match, not in Wordlist-black.tsv (or re-admitted as above)
 - Native-speaker review for sensitivity in Indian languages
 - Listening test: say, hear and type 3-word codes over a phone call
 
