@@ -65,7 +65,7 @@ The draft was then reviewed by a second reviewer (OpenAI Codex), whose suggestio
 
 **How the new words were checked.** Every new word:
 
-- is not already in the list, and not in the discarded list [`Wordlist-black.tsv`](Wordlist-black.tsv);
+- is not already in the list, and not in the rejectlist [`Wordlist-black.tsv`](Wordlist-black.tsv);
 - is a common, concrete, singular noun of 3-10 letters (English Zipf frequency >= 3.5, in the CMU pronouncing dictionary);
 - is at least 2 letters different from every other word (edit distance >= 2);
 - has no homophone, Double Metaphone match or common Indian English accent minimal pair (v/w, s/sh, z/j, th/t, short/long vowels) with any other word.
