@@ -36,3 +36,8 @@ test('every v3 word decodes to its v3 index; encoding uses v4 words', () => {
   v3.forEach((w, i) => assert.equal(dict.getIndex(w), i, w));
   list.words.forEach((w, i) => assert.equal(dict.getWord(i), w));
 });
+
+test('current words are not in the NATO phonetic alphabet', () => {
+  const { NATO_WORDS, natoKey } = require(path.join(root, 'scripts/build.js'));
+  assert.deepEqual(list.words.filter((w) => NATO_WORDS.has(natoKey(w))), []);
+});

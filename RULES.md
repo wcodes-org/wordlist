@@ -66,6 +66,9 @@ e.g. 'Comet' instead of 'Death', 'Jeep' is a brand
 
 21. Length: 3 to 10 letters
 
+22. No words from the NATO phonetic alphabet (spelling a code aloud with it would conflict)
+e.g. Alfa/Alpha, Bravo, Charlie, Delta, Echo, Foxtrot, Golf, Hotel, India, Juliett/Juliet, Kilo, Lima, Mike, November, Oscar, Papa, Quebec, Romeo, Sierra, Tango, Uniform, Victor, Whiskey/Whisky, Xray/X-ray, Yankee, Zulu
+
 ### Dictionary constraints:
 
 - Exactly 1024 (2^10) words; each word is one 10-bit index
@@ -105,7 +108,7 @@ e.g. 'Mud' must not use 💩, 'War' must not use 🕊️
 
 - 1024 unique words, lowercase ASCII, 3-10 letters
 - Every changed slot keeps its index; no other slot changes (`node scripts/build.js` checks this against every file in `versions/`)
-- New words: not in the current list, edit distance >= 2 from every word, no homophone (CMU dict), no Double Metaphone or accent minimal-pair match, not discarded (or re-admitted as above)
+- New words: not in the current list, not a NATO phonetic alphabet word (rule 22), edit distance >= 2 from every word, no homophone (CMU dict), no Double Metaphone or accent minimal-pair match, not discarded (or re-admitted as above)
 - Native-speaker review for sensitivity in Indian languages
 - Listening test: say, hear and type 3-word codes over a phone call
 

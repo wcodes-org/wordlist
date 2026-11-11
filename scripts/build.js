@@ -10,6 +10,19 @@ const path = require('path');
 const root = path.resolve(__dirname, '..');
 const read = (f) => JSON.parse(fs.readFileSync(path.join(root, f), 'utf8'));
 
+// NATO phonetic alphabet and spelling variants. A wordlist word in this set
+// would clash if a code is spelled aloud with the NATO alphabet.
+const NATO_WORDS = new Set([
+  'alfa', 'alpha', 'bravo', 'charlie', 'delta', 'echo', 'foxtrot', 'golf',
+  'hotel', 'india', 'juliett', 'juliet', 'kilo', 'lima', 'mike', 'november',
+  'oscar', 'papa', 'quebec', 'romeo', 'sierra', 'tango', 'uniform', 'victor',
+  'whiskey', 'whisky', 'xray', 'x-ray', 'yankee', 'zulu',
+].map((w) => w.replace(/-/g, '')));
+
+function natoKey(word) {
+  return String(word).toLowerCase().replace(/-/g, '');
+}
+
 function validate(list, aliases) {
   const errors = [];
   const words = list.words;
@@ -18,6 +31,10 @@ function validate(list, aliases) {
   if (list.size !== words.length) errors.push('size must equal words.length');
   if (new Set(words).size !== words.length) errors.push('duplicate words');
   words.forEach((w, i) => { if (!/^[a-z]{3,10}$/.test(w)) errors.push(`bad word at ${i}: ${w}`); });
+  const natoHits = words
+    .map((w, i) => NATO_WORDS.has(natoKey(w)) ? `${w} (${i})` : null)
+    .filter(Boolean);
+  if (natoHits.length) errors.push('NATO phonetic alphabet word(s): ' + natoHits.join(', '));
   if (aliases.version !== list.version) errors.push('aliases.json version differs from wordlist.json');
   for (const [word, entry] of Object.entries(aliases.retired)) {
     if (words.includes(word)) errors.push(`retired word still active: ${word}`);
@@ -153,4 +170,4 @@ function main() {
 }
 
 if (require.main === module) main();
-module.exports = { validate };
+module.exports = { validate, NATO_WORDS, natoKey };
