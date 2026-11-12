@@ -25,6 +25,12 @@ A WCode is a list of indexes (0-1023). Each word stands for one index; the index
 
 `wordlist.js` gives apps this behaviour directly: `getIndex('death') === getIndex('comet') === 235`, `canonical('death') === 'comet'`, `isRetired('death') === true`.
 
+## v6 - 2026-11-12
+
+`taco` replaces `pretzel` at index 436. Its shorter spelling is easier to type. Both `pretzel` and `jeep` still decode at index 436. The other 1,023 slots are unchanged.
+
+Native-speaker review and the phone listening test for `taco` are pending.
+
 ## v5 - 2026-11-12
 
 | Index | Old word (v4) | New word (v5) | Rule | Why the old word went | Why the new word |

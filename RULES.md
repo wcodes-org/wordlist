@@ -137,4 +137,4 @@ The considered-and-not-used inventory is Wordlist-black.tsv (filename kept for e
 build.js checks that every changed slot keeps its index against every file in versions/. New-word checks also use the CMU dict, Double Metaphone, accent pairs, and Wordlist-black.tsv (or a recorded re-admission).
 -->
 
-Current version: 5 - see [VERSIONS.md](VERSIONS.md)
+Current version: 6 - see [VERSIONS.md](VERSIONS.md)

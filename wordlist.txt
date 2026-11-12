@@ -434,7 +434,7 @@ jam
 jar
 jaw
 jeans
-pretzel
+taco
 jelly
 jet
 jewel
