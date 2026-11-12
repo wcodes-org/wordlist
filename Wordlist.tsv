@@ -248,6 +248,7 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark	Rank
 			juice				135
 			muffin				137
 			pizza				141
+			sushi				142
 			cookie				130
 			jam				326
 			waffle				148
@@ -1067,7 +1068,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark	Rank
 			tape				1018
 			tank				1012
 			system				973
-			sushi				142
 			smell				991
 			sink				1021
 			shout				969
