@@ -75,6 +75,12 @@ Previously titled “Words under review”. See RULES.md. Rule numbers that used
 - `south`
 - `west` — especially east / west over a poor line
 
+### Places with ambiguous names
+
+- `hall` — sounds like “haul”
+- `mall` — sounds like “maul”
+- `station` — can mean a railway stop, a broadcaster or a work area
+
 ### Other words already queued
 
 - `atom` — weakly pictured; shares ⚛️ with many science words

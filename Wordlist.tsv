@@ -1,1094 +1,1094 @@
-Serial	Primary	Secondary	Word I	Word II	Word III	Remark
-	Animal					
-		insect				
-			ant			
-			fly			
-			spider			
-			cricket			
-			mosquito			
-			ape			
-			snail			
-			snake			
-			bull			
-			bee			
-			beetle			
-			cockroach			
-		*				
-			crab			
-			lizard			
-			mouse			
-			buffalo			
-			cat			
-			donkey			
-			frog			
-			goose			
-			gorilla			
-			goat			
-			giraffe			
-			gecko			
-			horse			
-			leopard			
-			lion			
-			chimpanzee			
-			camel			
-			kangaroo			
-			monkey			
-			cheetah			
-			cow			
-			jackal			
-			tiger			
-			zebra			
-			sloth			
-			tortoise			
-			oyster			
-			elephant			
-			rhino			
-			wolf			
-			hippo			
-			dinosaur			
-			dodo			
-			shark			
-			koala			
-			puma			
-		fish				
-			dolphin			
-			whale			
-			tuna			
-			fox			
-			dragon			
-			crocodile			
-			yak			
-			sheep			
-			octopus			
-			panda			
-			panther			
-			rabbit			
-			walrus			
-		bird				
-			eagle			
-			dove			
-			chicken			
-			crow			
-			bat			
-			duck			
-			hawk			
-			owl			
-			crane			
-			cobra			
-			parrot			
-			penguin			
-			robin			
-			swan			
-				falcon		
-				mammoth		
-			squid			
-			squirrel			
-			ostrich			
-			kiwi			
-			pigeon			
-			vulture			
-	Body					
-		*				
-			lap			
-			jaw			
-			lip			
-			eye			
-			face			
-			elbow			
-			arm			
-			bone			
-			brain			
-			chest			
-			chin			
-			ear			
-			claw			
-			nail			
-			skeleton			
-			skin			
-			finger			
-			hip			
-			leg			
-			head			
-			heart			
-			hair			
-			knee			
-			throat			
-			thumb			
-			mouth			
-			hand			
-			muscle			
-			stomach			
-			kidney			
-			cheek			
-			liver			
-			flesh			
-			neck			
-			tooth			
-			tongue			
-			nerve			
-			nose			
-			wrist			
-			toe			
-			thigh			
-			feather			
-			wing			
-			lung			
-			shoulder			
-			tail			
-			vein			
-			stem			
-			trunk			
-			twig			
-			branch			
-	Cloth					
-		*				
-				dress		
-			suit			
-			sweater			
-			towel			
-			sock			
-			tie			
-			cap			
-			frock			
-			pocket			
-			skirt			
-			shirt			
-			shoe			
-			linen			
-			coat			
-			jacket			
-			jeans			
-			scarf			
-	Colour					
-		*				
-			black			
-			red			
-			blue			
-			yellow			
-			green			
-			white			
-	Device					
-		*				
-			umbrella			
-					lens	
-			tub			
-			tube			
-			pipe			
-				wrench		
-			ladder			
-			lamp			
-			tap			
-			telephone			
-			telescope			
-			screw			
-			watch			
-			clock			
-			motor			
-			radio			
-			wheel			
-			pen			
-			pencil			
-			needle			
-			computer			
-			alarm			
-			compass			
-			anchor			
-			axle			
-			belt			
-			button			
-			bulb			
-			bottle			
-			helmet			
-			calculator			
-			basin			
-			basket			
-			battery			
-			blade			
-			book			
-			plug			
-			socket			
-			camera			
-			oven			
-			hammer			
-			printer			
-			speaker			
-			shovel			
-			switch			
-			bag			
-			paper			
-			bucket			
-			key			
-			lock			
-			pixel			v4: replaces disk (index 250)
-	Energy					
-		*				
-			candle			
-			laser			v4: replaces thief (index 893)
-	Flower					
-		*				
-			lily			
-			orchid			
-			rose			
-			daffodil			
-			dahlia			
-			lotus			
-			tulip			
-	Food					
-		*				
-			soup			
-			salt			
-			sugar			
-			biscuit			
-			bread			
-			bun			
-			cake			
-			candy			
-			chocolate			
-			juice			
-			muffin			
-			pizza			
-			cookie			
-			jam			
-			waffle			
-			jelly			
-			pickle			
-			pie			
-			pasta			
-			burger			v4: replaces prison (index 685)
-			cinnamon			v4: replaces scent (index 754)
-	Cutlery					
-		*				
-			cup			
-			spoon			
-			fork			
-			plate			
-	Fruit					
-		*				
-			almond			
-			apple			
-			apricot			
-			avocado			
-			banana			
-			mango			
-			cashew			
-			cherry			
-			guava			
-			orange			
-			papaya			
-			pear			
-			grape			
-			citrus			v4: replaces chili (index 161)
-			coconut			v4: replaces pair (index 606)
-	Furniture					
-		*				
-			bench			
-			bed			
-			desk			
-			chair			
-			sofa			
-			table			
-			wardrobe			v4: replaces pant (index 610)
-	Vehicle					
-		*				
-			ambulance			
-			bicycle			
-			bike			
-			boat			
-			car			
-			cart			
-			bus			
-			carriage			
-			helicopter			
-			jeep			
-			truck			
-			van			
-			ship			
-			train			
-			jet			
-			wagon			v4: replaces feet (index 312)
-			shuttle			v4: replaces weapon (index 986)
-	Game					
-		*				
-			ball			
-			hockey			
-			tennis			
-			soccer			
-			kite			
-			polo			
-			dice			
-			chess			
-			skate			
-			puppet			v4: replaces children (index 160)
-			puzzle			v4: replaces rifle (index 720)
-	Plant					
-		*				
-			grass			
-			cactus			
-			cotton			
-			rice			
-			tea			
-			coffee			
-			corn			
-			mushroom			
-			garlic			
-			pepper			
-			oat			
-			vanilla			
-			wheat			
-			cocoa			
-		tree				
-			olive			
-			palm			
-			bamboo			
-			oak			
-			pine			
-			leaf			
-			thorn			
-			root			
-			seed			
-	People					
-		*				
-			boy			
-			child			
-			girl			
-				crowd		
-			dad			
-			mom			
-			woman			
-			man			
-			father			
-			brother			
-			wife			
-			mother			
-			uncle			
-			son			
-			daughter			
-			kid			
-	Role					
-		*				
-			actor			
-			author			
-			beast			
-			king			
-			queen			
-			farmer			
-			clown			
-			pilot			
-			doctor			
-			cook			
-			soldier			
-			student			
-			nurse			
-			manager			
-			police			
-			lawyer			
-			judge			
-			poet			
-			teacher			
-			sister			
-			minister			
-			governor			
-	Science					
-		*				
-			gravity			
-			antenna			
-			electron			
-			proton			
-			neutron			
-			plasma			
-			photon			
-			rocket			
-	Season					
-		*				
-			autumn			
-			winter			
-			summer			
-			spring			
-	Shape					
-		*				
-			line			
-			square			
-			circle			
-			cube			
-			sphere			
-			triangle			
-			ellipse			
-			device			
-			rectangle			
-			stripe			v4: replaces scissor (index 757)
-	Structure					
-		*				
-			wall			
-			tunnel			
-			tower			
-			pool			
-			hole			
-			arch			
-			base			
-			beam			
-			building			
-			castle			
-			floor			
-				dome		
-			bridge			
-			ceiling			
-				roof		
-			nest			
-			gate			
-			window			
-			hall			
-			pillar			
-			pyramid			
-			room			
-			aquarium			v4: replaces cannon (index 123)
-			chamber			v4: replaces spear (index 828)
-			portal			v4: replaces sword (index 872)
-			monument			v4: replaces war (index 981)
-	Stuff					
-		*				
-			marble			
-			sponge			
-			locket			
-			ice			
-			bell			
-			air			
-			badge			
-			balloon			
-			bangle			
-			bead			
-			blanket			
-			boot			
-			diary			
-			clip			
-			coin			
-			purse			
-			comb			
-			diamond			
-			perfume			
-			stick			
-			flag			
-			pillow			
-			cover			
-			toy			
-			gem			
-			doll			
-			harness			v4: replaces venom (index 963)
-			container			v4: replaces whip (index 996)
-			crystal			v4: replaces lead (index 468)
-	Weather					
-		*				
-			mist			
-			fog			
-				blizzard		
-			cloud			
-			rain			
-			hurricane			
-			snow			
-			tornado			
-			storm			
-	Elements					
-		*				
-			gold			
-			helium			
-			hydrogen			
-			silver			
-			iridium			
-			iron			
-			copper			
-			calcium			
-			carbon			
-			nitrogen			
-			sodium			
-			oxygen			
-			zinc			
-			silicon			
-			plutonium			
-			mercury			
-			tin			
-			titanium			
-			platinum			
-			uranium			
-			neon			
-	Alloys					
-		*				
-			brass			
-			steel			
-	Institutions					
-		*				
-			bank			
-			bill			
-			border			
-			bottom			
-			boundary			
-			bow			
-			box			
-			brake			
-	Music					
-		*				
-			piano			
-			flute			
-			violin			
-			guitar			
-			harmonica			
-			microphone			v4: replaces trouser (index 934)
-	Vegetable					
-		*				
-			cabbage			
-			lettuce			
-			broccoli			
-			carrot			
-			cucumber			
-			bean			
-			onion			
-			potato			
-			tomato			
-			lemon			
-			radish			
-			soy			
-			tip			
-			brick			
-			broom			
-			brush			
-			bubble			
-			ginger			
-			brinjal			
-	Nature					
-		*				
-			water			
-			soil			
-			clay			
-			stone			
-			sky			
-			morning			
-			night			
-			forest			
-			eclipse			
-			tide			
-			thunder			
-			tsunami			
-			coal			
-			sand			
-			magnet			
-			egg			
-			wood			
-			honey			
-			wax			
-			milk			
-			oil			
-			dawn			
-			dusk			
-			sea			
-			pearl			
-			sunrise			v4: replaces wind (index 1000)
-	Geography					
-		*				
-			volcano			
-			ocean			
-			beach			
-			land			
-			glacier			
-			canal			
-			cave			
-			river			
-			cliff			
-			lake			
-			island			
-			valley			
-			continent			
-			mountain			
-			peak			
-			hill			
-			pond			
-			coast			
-			desert			
-			ground			
-			marina			v4: replaces cancer (index 120)
-			junction			v4: replaces route (index 737)
-	Space					
-		*				
-			star			
-			orbit			
-			galaxy			
-			asteroid			
-			aurora			
-			satellite			
-			meteor			
-			nebula			
-			pulsar			
-			comet			v4: replaces death (index 235)
-	Additional					
-		action				
-			run			
-			love			
-			dance			
-			act			
-			eat			
-			fall			
-			feel			
-			find			
-			flow			
-			spin			
-			race			
-			toss			
-			sing			
-			swim			
-			poem			
-			catch			
-		*				
-			basic			
-			math			
-			fax			
-			fair			
-			film			
-			flat			
-			fish			
-			gear			
-			gift			
-			goal			
-			hero			
-			herb			
-			kind			
-			lady			
-			mint			
-			art			
-			oval			
-			pure			
-			rock			
-			view			
-			vote			
-			wise			
-			wave			
-			wire			
-			award			
-			brave			
-			brown			
-			cabin			
-			cable			
-			chain			
-			charm			
-			dream			
-			peace			
-			quick			
-			quiet			
-			salad			
-			solid			
-			topic			
-			curtain			
-			game			
-			music			
-			cloth			
-			plant			
-			polite			
-			food			
-			vegetable			
-			furniture			
-			science			
-			bird			
-			nature			
-			flower			
-			energy			
-			insect			
-			net			
-			area			
-			baby			
-			back			
-			basis			
-			bath			
-			bay			
-			board			
-			body			
-			bonus			
-			boss			
-			breath			
-			bush			
-			butter			
-			buyer			
-			cage			
-			calendar			
-			camp			
-			canvas			
-			card			
-			care			
-			case			
-			cash			
-			cast			
-			cell			
-			cellar			
-			cement			
-			cent			
-			century			
-			chalk			
-			channel			
-			cheese			
-			city			
-			clam			
-			class			
-			climate			
-			clover			
-			club			
-			coach			
-			coil			
-			collar			
-			company			
-			concrete			
-			cord			
-			cork			
-			cough			
-			country			
-			crack			
-			crate			
-			crayon			
-			cream			
-			creature			
-			credit			
-			crown			
-			current			
-			curve			
-			dark			
-			date			
-			decade			
-			deck			
-			degree			
-			depth			
-			diesel			
-			dime			
-			dish			
-			distance			
-			door			
-			drain			
-			drama			
-			drawer			
-			drill			
-			drink			
-			drop			
-			drum			
-			dust			
-			earth			
-			edge			
-			engine			
-			entry			
-			equation			
-			eraser			
-			event			
-			exam			
-			exit			
-			fact			
-			factory			
-			fan			
-			fang			
-			farm			
-			faucet			
-			feast			
-			fence			
-			fever			
-			field			
-			file			
-			flame			
-			foot			
-			force			
-			form			
-			formula			
-			fountain			
-			frame			
-			front			
-			fruit			
-			fuel			
-			garden			
-			giant			
-			glass			
-			glove			
-			glue			
-			grade			
-			grain			
-			graph			
-			grid			
-			grip			
-			group			
-			guest			
-			guide			
-			half			
-			hat			
-			heat			
-			home			
-			hook			
-			hope			
-			hour			
-			house			
-			idea			
-			impulse			
-			income			
-			ink			
-			interest			
-			item			
-			jar			
-			jewel			
-			join			
-			journey			
-			kettle			
-			kick			
-			lab			
-			lace			
-			lack			
-			law			
-			lawn			
-			left			
-			letter			
-			level			
-			library			
-			life			
-			lift			
-			light			
-			link			
-			liquid			
-			list			
-			load			
-			log			
-			logo			
-			look			
-			low			
-			lumber			
-			lunch			
-			machine			
-			magic			
-			mail			
-			mall			
-			map			
-			market			
-			mars			
-			mass			
-			mat			
-			matrix			
-			matter			
-			meal			
-			media			
-			memory			
-			menu			
-			metal			
-			mind			
-			mine			
-			minute			
-			mirror			
-			mode			
-			money			
-			monk			
-			month			
-			mood			
-			mop			
-			motion			
-			movie			
-			mud			
-			mug			
-			nation			
-			note			
-			number			
-			office			
-			ornament			
-			owner			
-			pack			
-			page			
-			paint			
-			pan			
-			parcel			
-			parent			
-			park			
-			part			
-			patch			
-			person			
-			pest			
-			pet			
-			phone			
-			picture			
-			pill			
-			pin			
-			plan			
-			planet			
-			plastic			
-			play			
-			plot			
-			point			
-			pole			
-			port			
-			porter			
-			position			
-			post			
-			pot			
-			power			
-			price			
-			print			
-			profit			
-			pump			
-			quartz			
-			question			
-			rack			
-			range			
-			rate			
-			ratio			
-			ray			
-			right			
-			ring			
-			rod			
-			role			
-			rope			
-			rule			
-			sack			
-			saddle			
-			sail			
-			sample			
-			sauce			
-			scale			
-			scene			
-			second			
-			self			
-			shade			
-			sheet			
-			shelf			
-			shell			
-			shop			
-			shower			
-			side			
-			sign			
-			silk			
-			site			
-			size			
-			skill			
-			sleep			
-			slip			
-			slope			
-			smile			
-			soap			
-			society			
-			soda			
-			song			
-			sort			
-			sound			
-			space			
-			spade			
-			spark			
-			spot			
-			stage			
-			stamp			
-			stand			
-			state			
-			station			
-			steak			
-			steam			
-			step			
-			stew			
-			stitch			
-			story			
-			stove			
-			straw			
-			string			
-			study			
-			swing			
-			task			
-			tattoo			
-			tent			
-			term			
-			test			
-			text			
-			theory			
-			thing			
-			thought			
-			thread			
-			ticket			
-			tile			
-			tilt			
-			toast			
-			tool			
-			top			
-			trade			
-			tree			
-			trip			
-			trophy			
-			truth			
-			twist			
-			type			
-			union			
-			unit			
-			universe			
-			value			
-			vase			
-			vessel			
-			vest			
-			voice			
-			wallet			
-			weather			
-			web			
-			weight			
-			while			
-			whistle			
-			wonder			
-			wool			
-			word			
-			work			
-			world			
-			yard			
-			yarn			
-			youth			
-			banner			v4: replaces color (index 190)
-			harvest			v4: replaces plough (index 661)
-			sketch			v4: replaces tale (index 877)
-			sticker			v4: replaces wound (index 1014)
-	Greylist					
-		*				
-			east			
-			fire			
-			gas			
-			rub			
-			syringe			
-			village			
-			week			
-			west			
-			north			
-			south			
-			verse			
-			free			
-			horn			
-			live			
-			mask			
-			angle			Angel / Angle
-			equator			
-			news			
-			noise			
-			nut			
-			petrol			
-			pleasure			
-			powder			
-			spy			
-			touch			
-			town			
-			user			
-			veil			
-			tremor			
-			atom			
-			video			
-			turnip			
-			tape			
-			tank			
-			system			
-			sushi			
-			smell			
-			sink			
-			shout			
-			rust			
-			rim			
-			receipt			
-			quilt			
-			quince			
-			quiver			
-			punch			
-			blood			
-			army			
-			smoke			
-			name			
-			place			
-			plane			plain
-			rake			
-			rent			
-			risk			
-			road			
-			school			
-			shake			
-			sleet			
-			street			
+Serial	Primary	Secondary	Word I	Word II	Word III	Remark	Rank
+	Animal						
+		insect					
+			ant				163
+			fly				131
+			spider				39
+			cricket				82
+			mosquito				109
+			ape				148
+			snail				145
+			snake				113
+			bull				260
+			bee				149
+			beetle				77
+			cockroach				129
+		*					
+			crab				101
+			lizard				52
+			mouse				110
+			buffalo				78
+			cat				621
+			donkey				104
+			frog				132
+			goose				86
+			gorilla				57
+			goat				273
+			giraffe				85
+			gecko				84
+			horse				106
+			leopard				90
+			lion				108
+			chimpanzee				154
+			camel				79
+			kangaroo				33
+			monkey				16
+			cheetah				80
+			cow				266
+			jackal				88
+			tiger				6
+			zebra				11
+			sloth				112
+			tortoise				45
+			oyster				93
+			elephant				3
+			rhino				96
+			wolf				117
+			hippo				87
+			dinosaur				15
+			dodo				103
+			shark				111
+			koala				89
+			puma				142
+		fish					
+			dolphin				9
+			whale				116
+			tuna				115
+			fox				271
+			dragon				44
+			crocodile				50
+			yak				161
+			sheep				144
+			octopus				28
+			panda				10
+			panther				94
+			rabbit				8
+			walrus				100
+		bird					
+			eagle				83
+			dove				156
+			chicken				35
+			crow				184
+			bat				611
+			duck				157
+			hawk				105
+			owl				159
+			crane				102
+			cobra				81
+			parrot				25
+			penguin				12
+			robin				97
+			swan				114
+				falcon			34
+				mammoth			91
+			squid				98
+			squirrel				76
+			ostrich				92
+			kiwi				107
+			pigeon				95
+			vulture				99
+	Body						
+		*					
+			lap				793
+			jaw				707
+			lip				764
+			eye				458
+			face				629
+			elbow				322
+			arm				685
+			bone				371
+			brain				617
+			chest				373
+			chin				547
+			ear				762
+			claw				625
+			nail				713
+			skeleton				403
+			skin				516
+			finger				381
+			hip				704
+			leg				577
+			head				571
+			heart				384
+			hair				641
+			knee				386
+			throat				359
+			thumb				360
+			mouth				585
+			hand				570
+			muscle				341
+			stomach				354
+			kidney				334
+			cheek				314
+			liver				484
+			flesh				325
+			neck				490
+			tooth				362
+			tongue				361
+			nerve				342
+			nose				655
+			wrist				367
+			toe				727
+			thigh				358
+			feather				461
+			wing				730
+			lung				390
+			shoulder				402
+			tail				677
+			vein				533
+			stem				724
+			trunk				406
+			twig				408
+			branch				309
+	Cloth						
+		*					
+				dress			189
+			suit				296
+			sweater				237
+			towel				299
+			sock				521
+			tie				754
+			cap				758
+			frock				272
+			pocket				54
+			skirt				290
+			shirt				289
+			shoe				351
+			linen				278
+			coat				693
+			jacket				51
+			jeans				201
+			scarf				46
+	Colour						
+		*					
+			black				417
+			red				663
+			blue				418
+			yellow				368
+			green				328
+			white				410
+	Device						
+		*					
+			umbrella				13
+					lens		276
+			tub				532
+			tube				407
+			pipe				397
+				wrench			248
+			ladder				47
+			lamp				387
+			tap				753
+			telephone				357
+			telescope				7
+			screw				224
+			watch				365
+			clock				263
+			motor				207
+			radio				286
+			wheel				246
+			pen				589
+			pencil				214
+			needle				209
+			computer				265
+			alarm				162
+			compass				66
+			anchor				14
+			axle				252
+			belt				308
+			button				174
+			bulb				311
+			bottle				171
+			helmet				32
+			calculator				372
+			basin				307
+			basket				58
+			battery				169
+			blade				170
+			book				538
+			plug				284
+			socket				404
+			camera				22
+			oven				281
+			hammer				197
+			printer				220
+			speaker				228
+			shovel				68
+			switch				809
+			bag				414
+			paper				213
+			bucket				173
+			key				333
+			lock				648
+			pixel			v4: replaces disk (index 250)	218
+	Energy						
+		*					
+			candle				40
+			laser			v4: replaces thief (index 893)	336
+	Flower						
+		*					
+			lily				277
+			orchid				212
+			rose				506
+			daffodil				267
+			dahlia				186
+			lotus				202
+			tulip				242
+	Food						
+		*					
+			soup				227
+			salt				160
+			sugar				146
+			biscuit				119
+			bread				150
+			bun				312
+			cake				544
+			candy				125
+			chocolate				72
+			juice				135
+			muffin				137
+			pizza				141
+			cookie				130
+			jam				331
+			waffle				147
+			jelly				134
+			pickle				140
+			pie				500
+			pasta				139
+			burger			v4: replaces prison (index 685)	123
+			cinnamon			v4: replaces scent (index 754)	155
+	Cutlery						
+		*					
+			cup				377
+			spoon				231
+			fork				466
+			plate				345
+	Fruit						
+		*					
+			almond				118
+			apple				1
+			apricot				71
+			avocado				59
+			banana				2
+			mango				5
+			cashew				126
+			cherry				127
+			guava				133
+			orange				158
+			papaya				138
+			pear				395
+			grape				195
+			citrus			v4: replaces chili (index 161)	128
+			coconut			v4: replaces pair (index 606)	61
+	Furniture						
+		*					
+			bench				256
+			bed				536
+			desk				379
+			chair				313
+			sofa				353
+			table				297
+			wardrobe			v4: replaces pant (index 610)	302
+	Vehicle						
+		*					
+			ambulance				305
+			bicycle				49
+			bike				257
+			boat				614
+			car				759
+			cart				734
+			bus				424
+			carriage				261
+			helicopter				385
+			jeep				956
+			truck				301
+			van				605
+			ship				513
+			train				531
+			jet				477
+			wagon			v4: replaces feet (index 312)	65
+			shuttle			v4: replaces weapon (index 986)	225
+	Game						
+		*					
+			ball				733
+			hockey				199
+			tennis				238
+			soccer				226
+			kite				335
+			polo				346
+			dice				446
+			chess				262
+			skate				808
+			puppet			v4: replaces children (index 160)	222
+			puzzle			v4: replaces rifle (index 720)	223
+	Plant						
+		*					
+			grass				327
+			cactus				24
+			cotton				183
+			rice				593
+			tea				405
+			coffee				181
+			corn				555
+			mushroom				70
+			garlic				53
+			pepper				41
+			oat				784
+			vanilla				244
+			wheat				303
+			cocoa				180
+		tree					
+			olive				280
+			palm				282
+			bamboo				168
+			oak				492
+			pine				659
+			leaf				275
+			thorn				298
+			root				594
+			seed				288
+	People						
+		*					
+			boy				775
+			child				315
+			girl				382
+				crowd			440
+			dad				443
+			mom				582
+			woman				366
+			man				766
+			father				380
+			brother				310
+			wife				683
+			mother				340
+			uncle				364
+			son				672
+			daughter				378
+			kid				575
+	Role						
+		*					
+			actor				304
+			author				306
+			beast				416
+			king				708
+			queen				348
+			farmer				323
+			clown				375
+			pilot				396
+			doctor				320
+			cook				694
+			soldier				957
+			student				355
+			nurse				394
+			manager				338
+			police				398
+			lawyer				337
+			judge				332
+			poet				748
+			teacher				356
+			sister				352
+			minister				392
+			governor				383
+	Science						
+		*					
+			gravity				470
+			antenna				412
+			electron				563
+			proton				591
+			neutron				491
+			plasma				501
+			photon				590
+			rocket				26
+	Season						
+		*					
+			autumn				165
+			winter				247
+			summer				235
+			spring				292
+	Shape						
+		*					
+			line				912
+			square				232
+			circle				177
+			cube				318
+			sphere				229
+			triangle				300
+			ellipse				270
+			device				806
+			rectangle				349
+			stripe			v4: replaces scissor (index 757)	234
+	Structure						
+		*					
+			wall				606
+			tunnel				48
+			tower				363
+			pool				399
+			hole				572
+			arch				250
+			base				369
+			beam				370
+			building				259
+			castle				21
+			floor				190
+				dome			448
+			bridge				172
+			ceiling				176
+				roof			400
+			nest				654
+			gate				468
+			window				36
+			hall				983
+			pillar				216
+			pyramid				69
+			room				505
+			aquarium			v4: replaces cannon (index 123)	249
+			chamber			v4: replaces spear (index 828)	955
+			portal			v4: replaces sword (index 872)	219
+			monument			v4: replaces war (index 981)	279
+	Stuff						
+		*					
+			marble				203
+			sponge				230
+			locket				389
+			ice				475
+			bell				613
+			air				411
+			badge				166
+			balloon				167
+			bangle				253
+			bead				612
+			blanket				55
+			boot				539
+			diary				188
+			clip				374
+			coin				552
+			purse				347
+			comb				264
+			diamond				38
+			perfume				215
+			stick				233
+			flag				324
+			pillow				217
+			cover				807
+			toy				678
+			gem				326
+			doll				268
+			harness			v4: replaces venom (index 963)	198
+			container			v4: replaces whip (index 996)	316
+			crystal			v4: replaces lead (index 468)	185
+	Weather						
+		*					
+			mist				393
+			fog				566
+				blizzard			258
+			cloud				179
+			rain				592
+			hurricane				330
+			snow				291
+			tornado				240
+			storm				295
+	Elements						
+		*					
+			gold				702
+			helium				642
+			hydrogen				705
+			silver				668
+			iridium				646
+			iron				706
+			copper				37
+			calcium				619
+			carbon				620
+			nitrogen				715
+			sodium				671
+			oxygen				656
+			zinc				732
+			silicon				667
+			plutonium				999
+			mercury				652
+			tin				795
+			titanium				726
+			platinum				718
+			uranium				977
+			neon				714
+	Alloys						
+		*					
+			brass				688
+			steel				676
+	Institutions						
+		*					
+			bank				686
+			bill				774
+			border				421
+			bottom				422
+			boundary				540
+			bow				1013
+			box				757
+			brake				618
+	Music						
+		*					
+			piano				19
+			flute				191
+			violin				63
+			guitar				4
+			harmonica				329
+			microphone			v4: replaces trouser (index 934)	391
+	Vegetable						
+		*					
+			cabbage				124
+			lettuce				136
+			broccoli				151
+			carrot				29
+			cucumber				62
+			bean				255
+			onion				43
+			potato				23
+			tomato				20
+			lemon				18
+			radish				143
+			soy				595
+			tip				923
+			brick				120
+			broom				152
+			brush				153
+			bubble				122
+			ginger				67
+			brinjal				121
+	Nature						
+		*					
+			water				245
+			soil				522
+			clay				433
+			stone				294
+			sky				517
+			morning				206
+			night				343
+			forest				192
+			eclipse				269
+			tide				530
+			thunder				239
+			tsunami				241
+			coal				436
+			sand				509
+			magnet				42
+			egg				321
+			wood				608
+			honey				31
+			wax				409
+			milk				339
+			oil				586
+			dawn				319
+			dusk				453
+			sea				401
+			pearl				283
+			sunrise			v4: replaces wind (index 1000)	236
+	Geography						
+		*					
+			volcano				17
+			ocean				210
+			beach				254
+			land				388
+			glacier				194
+			canal				175
+			cave				622
+			river				287
+			cliff				178
+			lake				480
+			island				200
+			valley				243
+			continent				317
+			mountain				27
+			peak				344
+			hill				474
+			pond				285
+			coast				376
+			desert				187
+			ground				196
+			marina			v4: replaces cancer (index 120)	204
+			junction			v4: replaces route (index 737)	274
+	Space						
+		*					
+			star				293
+			orbit				211
+			galaxy				193
+			asteroid				251
+			aurora				164
+			satellite				350
+			meteor				205
+			nebula				208
+			pulsar				221
+			comet			v4: replaces death (index 235)	182
+	Additional						
+		action					
+			run				928
+			love				927
+			dance				444
+			act				933
+			eat				954
+			fall				934
+			feel				878
+			find				910
+			flow				880
+			spin				723
+			race				948
+			toss				902
+			sing				949
+			swim				602
+			poem				661
+			catch				877
+		*					
+			basic				610
+			math				710
+			fax				763
+			fair				909
+			film				632
+			flat				879
+			fish				633
+			gear				700
+			gift				637
+			goal				701
+			hero				644
+			herb				643
+			kind				935
+			lady				576
+			mint				747
+			art				789
+			oval				588
+			pure				891
+			rock				770
+			view				874
+			vote				904
+			wise				925
+			wave				681
+			wire				755
+			award				413
+			brave				541
+			brown				542
+			cabin				427
+			cable				543
+			chain				624
+			charm				432
+			dream				560
+			peace				859
+			quick				833
+			quiet				864
+			salad				508
+			solid				523
+			topic				843
+			curtain				441
+			game				699
+			music				489
+			cloth				549
+			plant				717
+			polite				860
+			food				739
+			vegetable				680
+			furniture				636
+			science				512
+			bird				537
+			nature				831
+			flower				465
+			energy				455
+			insect				476
+			net				783
+			area				850
+			baby				609
+			back				790
+			basis				876
+			bath				687
+			bay				791
+			board				419
+			body				615
+			bonus				420
+			boss				616
+			breath				423
+			bush				689
+			butter				425
+			buyer				426
+			cage				776
+			calendar				545
+			camp				690
+			canvas				428
+			card				777
+			care				952
+			case				804
+			cash				691
+			cast				946
+			cell				623
+			cellar				546
+			cement				429
+			cent				907
+			century				810
+			chalk				430
+			channel				431
+			cheese				64
+			city				548
+			clam				692
+			class				851
+			climate				434
+			clover				550
+			club				551
+			coach				435
+			coil				760
+			collar				553
+			company				437
+			concrete				554
+			cord				761
+			cork				778
+			cough				438
+			country				811
+			crack				556
+			crate				626
+			crayon				73
+			cream				557
+			creature				558
+			credit				439
+			crown				735
+			current				812
+			curve				442
+			dark				627
+			date				695
+			decade				445
+			deck				736
+			degree				813
+			depth				814
+			diesel				447
+			dime				696
+			dish				628
+			distance				852
+			door				559
+			drain				737
+			drama				449
+			drawer				450
+			drill				451
+			drink				452
+			drop				561
+			drum				562
+			dust				697
+			earth				454
+			edge				853
+			engine				456
+			entry				815
+			equation				564
+			eraser				457
+			event				816
+			exam				565
+			exit				854
+			fact				908
+			factory				459
+			fan				792
+			fang				630
+			farm				698
+			faucet				460
+			feast				631
+			fence				462
+			fever				463
+			field				464
+			file				738
+			flame				959
+			foot				740
+			force				817
+			form				911
+			formula				818
+			fountain				634
+			frame				567
+			front				819
+			fruit				467
+			fuel				635
+			garden				30
+			giant				469
+			glass				638
+			glove				568
+			glue				639
+			grade				881
+			grain				741
+			graph				569
+			grid				640
+			grip				703
+			group				820
+			guest				471
+			guide				472
+			half				882
+			hat				796
+			heat				779
+			home				742
+			hook				743
+			hope				744
+			hour				573
+			house				645
+			idea				855
+			impulse				821
+			income				822
+			ink				745
+			interest				856
+			item				883
+			jar				780
+			jewel				478
+			join				884
+			journey				479
+			kettle				56
+			kick				574
+			lab				746
+			lace				781
+			lack				953
+			law				797
+			lawn				709
+			left				885
+			letter				481
+			level				823
+			library				482
+			life				936
+			lift				937
+			light				647
+			link				926
+			liquid				483
+			list				913
+			load				886
+			log				782
+			logo				649
+			look				938
+			low				947
+			lumber				578
+			lunch				579
+			machine				485
+			magic				824
+			mail				765
+			mall				1014
+			map				798
+			market				486
+			mars				650
+			mass				914
+			mat				805
+			matrix				487
+			matter				825
+			meal				651
+			media				826
+			memory				827
+			menu				580
+			metal				581
+			mind				939
+			mine				767
+			minute				828
+			mirror				60
+			mode				857
+			money				653
+			monk				583
+			month				584
+			mood				915
+			mop				768
+			motion				829
+			movie				488
+			mud				711
+			mug				712
+			nation				830
+			note				916
+			number				858
+			office				493
+			ornament				587
+			owner				494
+			pack				785
+			page				657
+			paint				658
+			pan				799
+			parcel				495
+			parent				496
+			park				769
+			part				940
+			patch				887
+			person				497
+			pest				794
+			pet				800
+			phone				498
+			picture				499
+			pill				716
+			pin				801
+			plan				941
+			planet				660
+			plastic				502
+			play				917
+			plot				918
+			point				888
+			pole				749
+			port				786
+			porter				503
+			position				861
+			post				942
+			pot				802
+			power				889
+			price				862
+			print				890
+			profit				832
+			pump				662
+			quartz				504
+			question				863
+			rack				803
+			range				865
+			rate				944
+			ratio				866
+			ray				719
+			right				892
+			ring				750
+			rod				751
+			role				945
+			rope				752
+			rule				893
+			sack				787
+			saddle				507
+			sail				788
+			sample				834
+			sauce				510
+			scale				511
+			scene				835
+			second				836
+			self				894
+			shade				895
+			sheet				664
+			shelf				665
+			shell				666
+			shop				720
+			shower				514
+			side				929
+			sign				867
+			silk				721
+			site				930
+			size				919
+			skill				837
+			sleep				896
+			slip				931
+			slope				518
+			smile				519
+			soap				669
+			society				520
+			soda				670
+			song				722
+			sort				897
+			sound				838
+			space				596
+			spade				673
+			spark				674
+			spot				898
+			stage				868
+			stamp				524
+			stand				869
+			state				899
+			station				958
+			steak				597
+			steam				675
+			step				920
+			stew				725
+			stitch				598
+			story				599
+			stove				600
+			straw				526
+			string				601
+			study				839
+			swing				900
+			task				921
+			tattoo				527
+			tent				771
+			term				870
+			test				950
+			text				922
+			theory				840
+			thing				841
+			thought				842
+			thread				528
+			ticket				529
+			tile				772
+			tilt				901
+			toast				603
+			tool				728
+			top				951
+			trade				871
+			tree				679
+			trip				924
+			trophy				75
+			truth				844
+			twist				845
+			type				903
+			union				872
+			unit				873
+			universe				604
+			value				846
+			vase				729
+			vessel				534
+			vest				773
+			voice				847
+			wallet				535
+			weather				607
+			web				682
+			weight				848
+			while				905
+			whistle				74
+			wonder				849
+			wool				756
+			word				943
+			work				932
+			world				875
+			yard				731
+			yarn				684
+			youth				906
+			banner			v4: replaces color (index 190)	415
+			harvest			v4: replaces plough (index 661)	473
+			sketch			v4: replaces tale (index 877)	515
+			sticker			v4: replaces wound (index 1014)	525
+	Greylist						
+		*					
+			east				1019
+			fire				1006
+			gas				997
+			rub				1016
+			syringe				972
+			village				980
+			week				994
+			west				1022
+			north				962
+			south				1004
+			verse				978
+			free				996
+			horn				1007
+			live				1023
+			mask				1008
+			angle			Angel / Angle	981
+			equator				961
+			news				984
+			noise				985
+			nut				1009
+			petrol				963
+			pleasure				986
+			powder				987
+			spy				1017
+			touch				974
+			town				992
+			user				993
+			veil				1005
+			tremor				975
+			atom				982
+			video				979
+			turnip				976
+			tape				1018
+			tank				1012
+			system				973
+			sushi				971
+			smell				991
+			sink				1021
+			shout				968
+			rust				1001
+			rim				1000
+			receipt				966
+			quilt				989
+			quince				964
+			quiver				965
+			punch				988
+			blood				960
+			army				995
+			smoke				969
+			name				998
+			place				1015
+			plane			plain	1020
+			rake				1024
+			rent				1010
+			risk				990
+			road				1011
+			school				967
+			shake				1002
+			sleet				1003
+			street				970

@@ -20,6 +20,16 @@ test('generated files match wordlist.json', () => {
   assert.equal(dict.version, list.version);
   assert.deepEqual(dict.WORDS, list.words);
   assert.equal(fs.readFileSync(path.join(root, 'wordlist.txt'), 'utf8'), list.words.join('\n') + '\n');
+  const tsv = fs.readFileSync(path.join(root, 'Wordlist.tsv'), 'utf8');
+  const { rankedTsv } = require(path.join(root, 'scripts/build.js'));
+  assert.equal(tsv, rankedTsv(tsv, list.ranks));
+});
+
+test('missing and duplicate ranks fail validation', () => {
+  const { validate } = require(path.join(root, 'scripts/build.js'));
+  assert.throws(() => validate({ ...list, ranks: { ...list.ranks, apple: list.ranks.banana } }, aliases), /ranks must be unique/);
+  const { apple, ...missingRank } = list.ranks;
+  assert.throws(() => validate({ ...list, ranks: missingRank }, aliases), /one entry per current word/);
 });
 
 test("a retired word decodes to its replacement's index ('death' == 'comet')", () => {

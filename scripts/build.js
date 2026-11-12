@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 'use strict';
 /**
- * Regenerates wordlist.txt and wordlist.js from wordlist.json + aliases.json,
- * after validating them. Run: node scripts/build.js
+ * Regenerates wordlist.txt and wordlist.js and refreshes the Rank column in
+ * Wordlist.tsv from the validated wordlist.json. Run: node scripts/build.js
  */
 const fs = require('fs');
 const path = require('path');
@@ -47,6 +47,15 @@ function validate(list, aliases) {
     .filter(Boolean);
   if (natoHits.length) errors.push('NATO phonetic alphabet word(s): ' + natoHits.join(', '));
   const current = new Set(words);
+  const rankEntries = Object.entries(list.ranks || {});
+  const ranks = rankEntries.map(([, rank]) => rank);
+  if (rankEntries.length !== words.length || rankEntries.some(([word]) => !current.has(word))) {
+    errors.push('ranks must have exactly one entry per current word');
+  }
+  if (new Set(ranks).size !== ranks.length ||
+      ranks.some((rank) => !Number.isInteger(rank) || rank < 1 || rank > words.length)) {
+    errors.push('ranks must be unique integers from 1 through ' + words.length);
+  }
   const greylistPath = path.join(root, 'GREYLIST.md');
   if (fs.existsSync(greylistPath)) {
     const listed = parseCandidates(fs.readFileSync(greylistPath, 'utf8'));
@@ -85,15 +94,26 @@ function validate(list, aliases) {
   // Wordlist.tsv (categorized, for reading) must hold exactly the current words.
   const tsvPath = path.join(root, 'Wordlist.tsv');
   if (fs.existsSync(tsvPath)) {
-    const tsvWords = fs.readFileSync(tsvPath, 'utf8').split(/\r?\n/).slice(1)
-      .flatMap((line) => line.split('\t').slice(3, 6)).filter(Boolean);
-    const current = new Set(words);
+    const rowWords = fs.readFileSync(tsvPath, 'utf8').split(/\r?\n/).slice(1)
+      .map((line) => line.split('\t').slice(3, 6).filter(Boolean));
+    if (rowWords.some((row) => row.length > 1)) errors.push('Wordlist.tsv must have one word per ranked row');
+    const tsvWords = rowWords.flat();
     const listed = new Set(tsvWords);
     if (tsvWords.length !== listed.size) errors.push('Wordlist.tsv lists a word twice');
     for (const w of current) if (!listed.has(w)) errors.push(`Wordlist.tsv is missing ${w}`);
     for (const w of listed) if (!current.has(w)) errors.push(`Wordlist.tsv lists ${w}, which is not in wordlist.json`);
   }
   if (errors.length) throw new Error('Wordlist validation failed:\n- ' + errors.join('\n- '));
+}
+
+function rankedTsv(tsv, ranks) {
+  return tsv.replace(/\r?\n$/, '').split(/\r?\n/).map((line, i) => {
+    const columns = line.split('\t');
+    const word = columns.slice(3, 6).find(Boolean);
+    columns.length = 8;
+    columns[7] = i === 0 ? 'Rank' : ranks[word] ?? '';
+    return columns.join('\t');
+  }).join('\n') + '\n';
 }
 
 function sdk(list, aliases) {
@@ -196,10 +216,14 @@ function main() {
   const list = read('wordlist.json');
   const aliases = read('aliases.json');
   validate(list, aliases);
+  const tsvPath = path.join(root, 'Wordlist.tsv');
+  if (fs.existsSync(tsvPath)) {
+    fs.writeFileSync(tsvPath, rankedTsv(fs.readFileSync(tsvPath, 'utf8'), list.ranks));
+  }
   fs.writeFileSync(path.join(root, 'wordlist.txt'), list.words.join('\n') + '\n');
   fs.writeFileSync(path.join(root, 'wordlist.js'), sdk(list, aliases));
   console.log(`[build] wordlist v${list.version}: ${list.words.length} words, ${Object.keys(aliases.retired).length} retired aliases`);
 }
 
 if (require.main === module) main();
-module.exports = { validate, NATO_WORDS, natoKey, parseCandidates };
+module.exports = { validate, NATO_WORDS, natoKey, parseCandidates, rankedTsv };

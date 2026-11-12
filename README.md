@@ -14,6 +14,12 @@ See also: https://wcodes.org/wordlist
 
 See [RULES.md](RULES.md) - the canonical rules, also shown on https://wcodes.org/wordlist
 
+### Ranks
+
+Every current word has a suitability rank from 1 (best) to 1024. The initial ranking favors familiar, concrete words with easy spelling and distinct names, and places words under review for spelling, sound or meaning lower.
+
+The `ranks` object in `wordlist.json` maps words to ranks. Edit that object and run `node scripts/build.js` to refresh the `Rank` column in `Wordlist.tsv`. The `words` array still gives the encoding order.
+
 ### Greylist:
 
 See [GREYLIST.md](GREYLIST.md) - current words that may be replaced, or whose emoji need work, in a later version.
