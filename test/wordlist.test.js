@@ -10,6 +10,7 @@ const read = (f) => JSON.parse(fs.readFileSync(path.join(root, f), 'utf8'));
 const list = read('wordlist.json');
 const aliases = read('aliases.json');
 const v3 = read('versions/v3.json');
+const v4 = read('versions/v4.json');
 const dict = require(path.join(root, 'wordlist.js'));
 
 test('wordlist.json and aliases.json validate', () => {
@@ -42,9 +43,12 @@ test("a retired word decodes to its replacement's index ('death' == 'comet')", (
   assert.ok(!dict.suggest('dea').includes('death'));
 });
 
-test('every v3 word decodes to its v3 index; encoding uses v4 words', () => {
+test('every previously published word still decodes to its original index', () => {
   v3.forEach((w, i) => assert.equal(dict.getIndex(w), i, w));
+  v4.words.forEach((w, i) => assert.equal(dict.getIndex(w), i, w));
   list.words.forEach((w, i) => assert.equal(dict.getWord(i), w));
+  assert.equal(dict.canonical('jeep'), 'pretzel');
+  assert.ok(!dict.suggest('jee').includes('jeep'));
 });
 
 test('current words are not in the NATO phonetic alphabet', () => {
@@ -57,6 +61,12 @@ test('GREYLIST.md only lists current words', () => {
   const listed = parseCandidates(fs.readFileSync(path.join(root, 'GREYLIST.md'), 'utf8'));
   assert.ok(listed.length > 0);
   listed.forEach((w) => assert.ok(list.words.includes(w), w));
+});
+
+test('validation rejects a Greylist word ranked above an unlisted word', () => {
+  const { validate } = require(path.join(root, 'scripts/build.js'));
+  const ranks = { ...list.ranks, doctor: list.ranks.apple, apple: list.ranks.doctor };
+  assert.throws(() => validate({ ...list, ranks }, aliases), /Greylist words must occupy the lowest ranks/);
 });
 
 test('BLACKLIST.md covers every retired word and no current words', () => {

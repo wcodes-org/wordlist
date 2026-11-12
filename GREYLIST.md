@@ -27,10 +27,6 @@ Previously titled “Words under review”. See RULES.md. Rule numbers that used
 - `tremor` — disaster / medical
 - `uranium` — weapons-adjacent
 
-### Brand names
-
-- `jeep` — a brand name
-
 ### More than one pronunciation
 
 - `bow` — bow (weapon) vs bow (bend); also a weapon association
@@ -49,7 +45,7 @@ Previously titled “Words under review”. See RULES.md. Rule numbers that used
 ### Unfamiliar or regional
 
 - `petrol` — regional (gasoline in some varieties of English)
-- `quince` — called out in rule 18 as less familiar than e.g. mango
+- `quince` — less familiar than fruit such as mango
 - `sleet` — less familiar in much of India
 
 ### Ambiguous or abstract
@@ -100,7 +96,6 @@ Previously titled “Words under review”. See RULES.md. Rule numbers that used
 - `sink` — noun / verb ambiguity
 - `smell` — a sense, not a tangible object
 - `street` — generic place; close in use to `road`
-- `sushi` — uneven global familiarity
 - `tape` — many senses
 - `town` — generic place; overlaps `village` / city
 - `turnip` — easy to mix with other root vegetables; shares 🥕 with `carrot`, `radish`
@@ -108,24 +103,24 @@ Previously titled “Words under review”. See RULES.md. Rule numbers that used
 - `video` — generic / dated as an object name
 - `village` — generic place; overlaps `town`
 
-### Emoji: ZWJ sequences (emoji rules)
+### Emoji with joined characters
 
-These words can stay; the emoji should be replaced with a single code point (plus VS16), not a ZWJ sequence.
+These words are under review because their emoji combine multiple characters.
 
-- `cook` — 👨‍🍳
-- `doctor` — 👨‍⚕️
-- `farmer` — 👨‍🌾
-- `nurse` — 👩‍⚕️
-- `pilot` — 👨‍✈️
-- `student` — 🧑‍🎓
-- `teacher` — 👨‍🏫
+- `cook` — the emoji joins multiple characters
+- `doctor` — the emoji joins multiple characters
+- `farmer` — the emoji joins multiple characters
+- `nurse` — the emoji joins multiple characters
+- `pilot` — the emoji joins multiple characters
+- `student` — the emoji joins multiple characters
+- `teacher` — the emoji joins multiple characters
 
-### Emoji: shared by more than one word (emoji rules)
+### Emoji shared by more than one word
 
-The emoji rules ask for one unique emoji per word. Many words still share an emoji; these 12 are the most confusing cases, where the picture is also another word on the list. A full emoji pass is still needed.
+The same picture can bring more than one word to mind.
 
-- `sunrise`, `dawn`, `morning` — all 🌅
-- `puzzle`, `part` — both 🧩
-- `fire`, `flame` — both 🔥 (also used by `oven`, `plasma`, `stove`)
-- `bow`, `quiver` — both 🏹
-- `plane`, `jet`, `trip` — all ✈️
+- `sunrise`, `dawn`, `morning` — share 🌅
+- `puzzle`, `part` — share 🧩
+- `fire`, `flame` — share 🔥 (also used by `oven`, `plasma`, `stove`)
+- `bow`, `quiver` — share 🏹
+- `plane`, `jet`, `trip` — share ✈️

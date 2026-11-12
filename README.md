@@ -16,7 +16,7 @@ See [RULES.md](RULES.md) - the canonical rules, also shown on https://wcodes.org
 
 ### Ranks
 
-Every current word has a suitability rank from 1 (best) to 1024. The initial ranking favors familiar, concrete words with easy spelling and distinct names, and places words under review for spelling, sound or meaning lower.
+Every current word has a suitability rank from 1 (best) to 1024. The ranking favors familiar, concrete words with easy spelling and distinct names. Every Greylist word ranks below every other word.
 
 The `ranks` object in `wordlist.json` maps words to ranks. Edit that object and run `node scripts/build.js` to refresh the `Rank` column in `Wordlist.tsv`. The `words` array still gives the encoding order.
 
@@ -30,7 +30,7 @@ See [BLACKLIST.md](BLACKLIST.md) - words previously in the main list and replace
 
 ### Versions:
 
-See [VERSIONS.md](VERSIONS.md) - what changed in each version, why, and how old codes keep decoding. Current version: 4
+See [VERSIONS.md](VERSIONS.md) - what changed in each version, why, and how old codes keep decoding. Current version: 5
 
 ### License
 

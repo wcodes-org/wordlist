@@ -112,6 +112,7 @@ The root wordlist.json is always the latest version: { "version": N, "size": 102
 ### Greylist:
 
 - Some current words may be replaced, or have their emoji fixed, in a later version. They stay in the live list until then. See [`GREYLIST.md`](GREYLIST.md)
+- Greylist words occupy the lowest suitability ranks.
 
 ### Blacklist:
 
@@ -136,4 +137,4 @@ The considered-and-not-used inventory is Wordlist-black.tsv (filename kept for e
 build.js checks that every changed slot keeps its index against every file in versions/. New-word checks also use the CMU dict, Double Metaphone, accent pairs, and Wordlist-black.tsv (or a recorded re-admission).
 -->
 
-Current version: 4 - see [VERSIONS.md](VERSIONS.md)
+Current version: 5 - see [VERSIONS.md](VERSIONS.md)

@@ -9,6 +9,7 @@ What changed in each version of the WCode wordlist, why, and how old codes keep 
 
 | Version | Date | Words changed | Summary |
 | ---: | --- | ---: | --- |
+| [5](#v5---2026-11-12) | 2026-11-12 | 1 | Replaced a brand name |
 | [4](#v4---2026-11-09) | 2026-11-09 | 28 | Removed weapons, crime, disease, plural forms, spelling variants, homophones and words with two pronunciations |
 | [3](#v3---2019-05-18) | 2019-05-18 | - | First published list |
 
@@ -23,6 +24,18 @@ A WCode is a list of indexes (0-1023). Each word stands for one index; the index
 - **Old clients keep working.** Until v3, the root `wordlist.json` was a plain array. From v4 it is an object (`{ "version", "size", "words" }`). A decoder that still expects an array ignores the new file and keeps its bundled v3 list. It then reads v3 codes, but not codes that use a new v4 word.
 
 `wordlist.js` gives apps this behaviour directly: `getIndex('death') === getIndex('comet') === 235`, `canonical('death') === 'comet'`, `isRetired('death') === true`.
+
+## v5 - 2026-11-12
+
+| Index | Old word (v4) | New word (v5) | Rule | Why the old word went | Why the new word |
+| ---: | --- | --- | --- | --- | --- |
+| 436 | jeep | pretzel | 20 | Brand name. | Concrete food with a distinct spelling, sound and emoji (🥨). |
+
+`jeep` still decodes at index 436. The other 1,023 encoding slots are unchanged.
+
+All Greylist words now rank below the other words. `sushi` was removed from the Greylist because it is a recognizable food with a distinct emoji (🍣).
+
+Native-speaker review and the phone listening test for `pretzel` are pending.
 
 ## v4 - 2026-11-09
 

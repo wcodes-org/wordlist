@@ -58,9 +58,13 @@ function validate(list, aliases) {
   }
   const greylistPath = path.join(root, 'GREYLIST.md');
   if (fs.existsSync(greylistPath)) {
-    const listed = parseCandidates(fs.readFileSync(greylistPath, 'utf8'));
-    const missing = [...new Set(listed)].filter((w) => !current.has(w));
+    const listed = new Set(parseCandidates(fs.readFileSync(greylistPath, 'utf8')));
+    const missing = [...listed].filter((w) => !current.has(w));
     if (missing.length) errors.push('GREYLIST.md lists words not in wordlist.json: ' + missing.join(', '));
+    const firstGreylistRank = words.length - listed.size + 1;
+    if (rankEntries.some(([word, rank]) => listed.has(word) !== (rank >= firstGreylistRank))) {
+      errors.push('Greylist words must occupy the lowest ranks');
+    }
   }
   const blacklistPath = path.join(root, 'BLACKLIST.md');
   if (fs.existsSync(blacklistPath)) {

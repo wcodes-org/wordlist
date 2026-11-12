@@ -6,6 +6,10 @@ Words that are not used in the current list, in two groups: words that were once
 
 Words that were previously in the main list and have been replaced. Each one still decodes: it maps to a replacement at the same index.
 
+#### v5 (2026-11-12)
+
+- `jeep` — brand name. Replaced by `pretzel`.
+
 #### v4 (2026-11-09)
 
 - `cancer` — disease. Replaced by `marina`.

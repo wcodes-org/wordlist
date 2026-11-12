@@ -1,16 +1,16 @@
 Serial	Primary	Secondary	Word I	Word II	Word III	Remark	Rank
 	Animal						
 		insect					
-			ant				163
+			ant				164
 			fly				131
 			spider				39
 			cricket				82
 			mosquito				109
-			ape				148
-			snail				145
+			ape				149
+			snail				146
 			snake				113
-			bull				260
-			bee				149
+			bull				258
+			bee				150
 			beetle				77
 			cockroach				129
 		*					
@@ -18,23 +18,23 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark	Rank
 			lizard				52
 			mouse				110
 			buffalo				78
-			cat				621
+			cat				612
 			donkey				104
 			frog				132
 			goose				86
 			gorilla				57
-			goat				273
+			goat				271
 			giraffe				85
 			gecko				84
 			horse				106
 			leopard				90
 			lion				108
-			chimpanzee				154
+			chimpanzee				155
 			camel				79
 			kangaroo				33
 			monkey				16
 			cheetah				80
-			cow				266
+			cow				264
 			jackal				88
 			tiger				6
 			zebra				11
@@ -49,16 +49,16 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark	Rank
 			dodo				103
 			shark				111
 			koala				89
-			puma				142
+			puma				143
 		fish					
 			dolphin				9
 			whale				116
 			tuna				115
-			fox				271
+			fox				269
 			dragon				44
 			crocodile				50
-			yak				161
-			sheep				144
+			yak				162
+			sheep				145
 			octopus				28
 			panda				10
 			panther				94
@@ -66,13 +66,13 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark	Rank
 			walrus				100
 		bird					
 			eagle				83
-			dove				156
+			dove				157
 			chicken				35
-			crow				184
-			bat				611
-			duck				157
+			crow				185
+			bat				601
+			duck				158
 			hawk				105
-			owl				159
+			owl				160
 			crane				102
 			cobra				81
 			parrot				25
@@ -89,179 +89,180 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark	Rank
 			vulture				99
 	Body						
 		*					
-			lap				793
-			jaw				707
-			lip				764
-			eye				458
-			face				629
-			elbow				322
-			arm				685
-			bone				371
-			brain				617
-			chest				373
-			chin				547
-			ear				762
-			claw				625
-			nail				713
-			skeleton				403
-			skin				516
-			finger				381
-			hip				704
-			leg				577
-			head				571
-			heart				384
-			hair				641
-			knee				386
-			throat				359
-			thumb				360
-			mouth				585
-			hand				570
-			muscle				341
-			stomach				354
-			kidney				334
-			cheek				314
-			liver				484
-			flesh				325
-			neck				490
-			tooth				362
-			tongue				361
-			nerve				342
-			nose				655
-			wrist				367
-			toe				727
-			thigh				358
-			feather				461
-			wing				730
-			lung				390
-			shoulder				402
-			tail				677
-			vein				533
-			stem				724
-			trunk				406
-			twig				408
-			branch				309
+			lap				783
+			jaw				697
+			lip				754
+			eye				449
+			face				620
+			elbow				318
+			arm				676
+			bone				364
+			brain				608
+			chest				366
+			chin				537
+			ear				752
+			claw				616
+			nail				703
+			skeleton				394
+			skin				506
+			finger				374
+			hip				694
+			leg				567
+			head				561
+			heart				377
+			hair				632
+			knee				379
+			throat				352
+			thumb				353
+			mouth				575
+			hand				560
+			muscle				336
+			stomach				349
+			kidney				329
+			cheek				312
+			liver				474
+			flesh				320
+			neck				480
+			tooth				355
+			tongue				354
+			nerve				337
+			nose				646
+			wrist				360
+			toe				717
+			thigh				351
+			feather				452
+			wing				720
+			lung				383
+			shoulder				393
+			tail				668
+			vein				523
+			stem				714
+			trunk				397
+			twig				399
+			branch				307
 	Cloth						
 		*					
-				dress			189
-			suit				296
-			sweater				237
-			towel				299
-			sock				521
-			tie				754
-			cap				758
-			frock				272
+				dress			190
+			suit				294
+			sweater				235
+			towel				297
+			sock				511
+			tie				744
+			cap				748
+			frock				270
 			pocket				54
-			skirt				290
-			shirt				289
-			shoe				351
-			linen				278
-			coat				693
+			skirt				288
+			shirt				287
+			shoe				346
+			linen				276
+			coat				684
 			jacket				51
-			jeans				201
+			jeans				202
 			scarf				46
 	Colour						
 		*					
-			black				417
-			red				663
-			blue				418
-			yellow				368
-			green				328
-			white				410
+			black				408
+			red				654
+			blue				409
+			yellow				361
+			green				323
+			white				401
 	Device						
 		*					
 			umbrella				13
-					lens		276
-			tub				532
-			tube				407
-			pipe				397
-				wrench			248
+					lens		274
+			tub				522
+			tube				398
+			pipe				388
+				wrench			246
 			ladder				47
-			lamp				387
-			tap				753
-			telephone				357
+			lamp				380
+			tap				743
+			telephone				350
 			telescope				7
-			screw				224
-			watch				365
-			clock				263
+			screw				223
+			watch				358
+			clock				261
 			motor				207
-			radio				286
-			wheel				246
-			pen				589
+			radio				284
+			wheel				244
+			pen				579
 			pencil				214
 			needle				209
-			computer				265
-			alarm				162
+			computer				263
+			alarm				163
 			compass				66
 			anchor				14
-			axle				252
-			belt				308
-			button				174
-			bulb				311
-			bottle				171
+			axle				250
+			belt				306
+			button				175
+			bulb				309
+			bottle				172
 			helmet				32
-			calculator				372
-			basin				307
+			calculator				365
+			basin				305
 			basket				58
-			battery				169
-			blade				170
-			book				538
-			plug				284
-			socket				404
+			battery				170
+			blade				171
+			book				528
+			plug				282
+			socket				395
 			camera				22
-			oven				281
-			hammer				197
+			oven				279
+			hammer				198
 			printer				220
-			speaker				228
+			speaker				227
 			shovel				68
-			switch				809
-			bag				414
+			switch				799
+			bag				405
 			paper				213
-			bucket				173
-			key				333
-			lock				648
+			bucket				174
+			key				328
+			lock				639
 			pixel			v4: replaces disk (index 250)	218
 	Energy						
 		*					
 			candle				40
-			laser			v4: replaces thief (index 893)	336
+			laser			v4: replaces thief (index 893)	331
 	Flower						
 		*					
-			lily				277
+			lily				275
 			orchid				212
-			rose				506
-			daffodil				267
-			dahlia				186
-			lotus				202
-			tulip				242
+			rose				496
+			daffodil				265
+			dahlia				187
+			lotus				203
+			tulip				240
 	Food						
 		*					
-			soup				227
-			salt				160
-			sugar				146
+			soup				226
+			salt				161
+			sugar				147
 			biscuit				119
-			bread				150
-			bun				312
-			cake				544
+			bread				151
+			pretzel			v5: replaces jeep (index 436)	605
+			bun				310
+			cake				534
 			candy				125
 			chocolate				72
 			juice				135
 			muffin				137
 			pizza				141
 			cookie				130
-			jam				331
-			waffle				147
+			jam				326
+			waffle				148
 			jelly				134
 			pickle				140
-			pie				500
+			pie				490
 			pasta				139
 			burger			v4: replaces prison (index 685)	123
-			cinnamon			v4: replaces scent (index 754)	155
+			cinnamon			v4: replaces scent (index 754)	156
 	Cutlery						
 		*					
-			cup				377
-			spoon				231
-			fork				466
-			plate				345
+			cup				370
+			spoon				230
+			fork				457
+			plate				340
 	Fruit						
 		*					
 			almond				118
@@ -273,763 +274,762 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark	Rank
 			cashew				126
 			cherry				127
 			guava				133
-			orange				158
+			orange				159
 			papaya				138
-			pear				395
-			grape				195
+			pear				387
+			grape				196
 			citrus			v4: replaces chili (index 161)	128
 			coconut			v4: replaces pair (index 606)	61
 	Furniture						
 		*					
-			bench				256
-			bed				536
-			desk				379
-			chair				313
-			sofa				353
-			table				297
-			wardrobe			v4: replaces pant (index 610)	302
+			bench				254
+			bed				526
+			desk				372
+			chair				311
+			sofa				348
+			table				295
+			wardrobe			v4: replaces pant (index 610)	300
 	Vehicle						
 		*					
-			ambulance				305
+			ambulance				303
 			bicycle				49
-			bike				257
-			boat				614
-			car				759
-			cart				734
-			bus				424
-			carriage				261
-			helicopter				385
-			jeep				956
-			truck				301
-			van				605
-			ship				513
-			train				531
-			jet				477
+			bike				255
+			boat				604
+			car				749
+			cart				724
+			bus				415
+			carriage				259
+			helicopter				378
+			truck				299
+			van				595
+			ship				503
+			train				521
+			jet				953
 			wagon			v4: replaces feet (index 312)	65
-			shuttle			v4: replaces weapon (index 986)	225
+			shuttle			v4: replaces weapon (index 986)	224
 	Game						
 		*					
-			ball				733
-			hockey				199
-			tennis				238
-			soccer				226
-			kite				335
-			polo				346
-			dice				446
-			chess				262
-			skate				808
+			ball				723
+			hockey				200
+			tennis				236
+			soccer				225
+			kite				330
+			polo				341
+			dice				437
+			chess				260
+			skate				798
 			puppet			v4: replaces children (index 160)	222
-			puzzle			v4: replaces rifle (index 720)	223
+			puzzle			v4: replaces rifle (index 720)	944
 	Plant						
 		*					
-			grass				327
+			grass				322
 			cactus				24
-			cotton				183
-			rice				593
-			tea				405
-			coffee				181
-			corn				555
+			cotton				184
+			rice				583
+			tea				396
+			coffee				182
+			corn				545
 			mushroom				70
 			garlic				53
 			pepper				41
-			oat				784
-			vanilla				244
-			wheat				303
-			cocoa				180
+			oat				774
+			vanilla				242
+			wheat				301
+			cocoa				181
 		tree					
-			olive				280
-			palm				282
-			bamboo				168
-			oak				492
-			pine				659
-			leaf				275
-			thorn				298
-			root				594
-			seed				288
+			olive				278
+			palm				280
+			bamboo				169
+			oak				482
+			pine				650
+			leaf				273
+			thorn				296
+			root				584
+			seed				286
 	People						
 		*					
-			boy				775
-			child				315
-			girl				382
-				crowd			440
-			dad				443
-			mom				582
-			woman				366
-			man				766
-			father				380
-			brother				310
-			wife				683
-			mother				340
-			uncle				364
-			son				672
-			daughter				378
-			kid				575
+			boy				765
+			child				313
+			girl				375
+				crowd			431
+			dad				434
+			mom				572
+			woman				359
+			man				756
+			father				373
+			brother				308
+			wife				674
+			mother				335
+			uncle				357
+			son				663
+			daughter				371
+			kid				565
 	Role						
 		*					
-			actor				304
-			author				306
-			beast				416
-			king				708
-			queen				348
-			farmer				323
-			clown				375
-			pilot				396
-			doctor				320
-			cook				694
-			soldier				957
-			student				355
-			nurse				394
-			manager				338
-			police				398
-			lawyer				337
-			judge				332
-			poet				748
-			teacher				356
-			sister				352
-			minister				392
-			governor				383
+			actor				302
+			author				304
+			beast				407
+			king				698
+			queen				343
+			farmer				948
+			clown				368
+			pilot				952
+			doctor				947
+			cook				954
+			soldier				958
+			student				949
+			nurse				951
+			manager				333
+			police				389
+			lawyer				332
+			judge				327
+			poet				738
+			teacher				950
+			sister				347
+			minister				385
+			governor				376
 	Science						
 		*					
-			gravity				470
-			antenna				412
-			electron				563
-			proton				591
-			neutron				491
-			plasma				501
-			photon				590
+			gravity				461
+			antenna				403
+			electron				553
+			proton				581
+			neutron				481
+			plasma				491
+			photon				580
 			rocket				26
 	Season						
 		*					
-			autumn				165
-			winter				247
-			summer				235
-			spring				292
+			autumn				166
+			winter				245
+			summer				234
+			spring				290
 	Shape						
 		*					
-			line				912
-			square				232
-			circle				177
-			cube				318
-			sphere				229
-			triangle				300
-			ellipse				270
-			device				806
-			rectangle				349
-			stripe			v4: replaces scissor (index 757)	234
+			line				902
+			square				231
+			circle				178
+			cube				316
+			sphere				228
+			triangle				298
+			ellipse				268
+			device				796
+			rectangle				344
+			stripe			v4: replaces scissor (index 757)	233
 	Structure						
 		*					
-			wall				606
+			wall				596
 			tunnel				48
-			tower				363
-			pool				399
-			hole				572
-			arch				250
-			base				369
-			beam				370
-			building				259
+			tower				356
+			pool				390
+			hole				562
+			arch				248
+			base				362
+			beam				363
+			building				257
 			castle				21
-			floor				190
-				dome			448
-			bridge				172
-			ceiling				176
-				roof			400
-			nest				654
-			gate				468
+			floor				191
+				dome			439
+			bridge				173
+			ceiling				177
+				roof			391
+			nest				645
+			gate				459
 			window				36
 			hall				983
 			pillar				216
 			pyramid				69
-			room				505
-			aquarium			v4: replaces cannon (index 123)	249
-			chamber			v4: replaces spear (index 828)	955
+			room				495
+			aquarium			v4: replaces cannon (index 123)	247
+			chamber			v4: replaces spear (index 828)	957
 			portal			v4: replaces sword (index 872)	219
-			monument			v4: replaces war (index 981)	279
+			monument			v4: replaces war (index 981)	277
 	Stuff						
 		*					
-			marble				203
-			sponge				230
-			locket				389
-			ice				475
-			bell				613
-			air				411
-			badge				166
-			balloon				167
-			bangle				253
-			bead				612
+			marble				204
+			sponge				229
+			locket				382
+			ice				466
+			bell				603
+			air				402
+			badge				167
+			balloon				168
+			bangle				251
+			bead				602
 			blanket				55
-			boot				539
-			diary				188
-			clip				374
-			coin				552
-			purse				347
-			comb				264
+			boot				529
+			diary				189
+			clip				367
+			coin				542
+			purse				342
+			comb				262
 			diamond				38
 			perfume				215
-			stick				233
-			flag				324
+			stick				232
+			flag				319
 			pillow				217
-			cover				807
-			toy				678
-			gem				326
-			doll				268
-			harness			v4: replaces venom (index 963)	198
-			container			v4: replaces whip (index 996)	316
-			crystal			v4: replaces lead (index 468)	185
+			cover				797
+			toy				669
+			gem				321
+			doll				266
+			harness			v4: replaces venom (index 963)	199
+			container			v4: replaces whip (index 996)	314
+			crystal			v4: replaces lead (index 468)	186
 	Weather						
 		*					
-			mist				393
-			fog				566
-				blizzard			258
-			cloud				179
-			rain				592
-			hurricane				330
-			snow				291
-			tornado				240
-			storm				295
+			mist				386
+			fog				556
+				blizzard			256
+			cloud				180
+			rain				582
+			hurricane				325
+			snow				289
+			tornado				238
+			storm				293
 	Elements						
 		*					
-			gold				702
-			helium				642
-			hydrogen				705
-			silver				668
-			iridium				646
-			iron				706
+			gold				692
+			helium				633
+			hydrogen				695
+			silver				659
+			iridium				637
+			iron				696
 			copper				37
-			calcium				619
-			carbon				620
-			nitrogen				715
-			sodium				671
-			oxygen				656
-			zinc				732
-			silicon				667
+			calcium				610
+			carbon				611
+			nitrogen				705
+			sodium				662
+			oxygen				647
+			zinc				722
+			silicon				658
 			plutonium				999
-			mercury				652
-			tin				795
-			titanium				726
-			platinum				718
+			mercury				643
+			tin				785
+			titanium				716
+			platinum				708
 			uranium				977
-			neon				714
+			neon				704
 	Alloys						
 		*					
-			brass				688
-			steel				676
+			brass				679
+			steel				667
 	Institutions						
 		*					
-			bank				686
-			bill				774
-			border				421
-			bottom				422
-			boundary				540
+			bank				677
+			bill				764
+			border				412
+			bottom				413
+			boundary				530
 			bow				1013
-			box				757
-			brake				618
+			box				747
+			brake				609
 	Music						
 		*					
 			piano				19
-			flute				191
+			flute				192
 			violin				63
 			guitar				4
-			harmonica				329
-			microphone			v4: replaces trouser (index 934)	391
+			harmonica				324
+			microphone			v4: replaces trouser (index 934)	384
 	Vegetable						
 		*					
 			cabbage				124
 			lettuce				136
-			broccoli				151
+			broccoli				152
 			carrot				29
 			cucumber				62
-			bean				255
+			bean				253
 			onion				43
 			potato				23
 			tomato				20
 			lemon				18
-			radish				143
-			soy				595
-			tip				923
+			radish				144
+			soy				585
+			tip				913
 			brick				120
-			broom				152
-			brush				153
+			broom				153
+			brush				154
 			bubble				122
 			ginger				67
 			brinjal				121
 	Nature						
 		*					
-			water				245
-			soil				522
-			clay				433
-			stone				294
-			sky				517
-			morning				206
-			night				343
-			forest				192
-			eclipse				269
-			tide				530
-			thunder				239
-			tsunami				241
-			coal				436
-			sand				509
+			water				243
+			soil				512
+			clay				424
+			stone				292
+			sky				507
+			morning				943
+			night				338
+			forest				193
+			eclipse				267
+			tide				520
+			thunder				237
+			tsunami				239
+			coal				427
+			sand				499
 			magnet				42
-			egg				321
-			wood				608
+			egg				317
+			wood				598
 			honey				31
-			wax				409
-			milk				339
-			oil				586
-			dawn				319
-			dusk				453
-			sea				401
-			pearl				283
-			sunrise			v4: replaces wind (index 1000)	236
+			wax				400
+			milk				334
+			oil				576
+			dawn				946
+			dusk				444
+			sea				392
+			pearl				281
+			sunrise			v4: replaces wind (index 1000)	945
 	Geography						
 		*					
 			volcano				17
 			ocean				210
-			beach				254
-			land				388
-			glacier				194
-			canal				175
-			cave				622
-			river				287
-			cliff				178
-			lake				480
-			island				200
-			valley				243
-			continent				317
+			beach				252
+			land				381
+			glacier				195
+			canal				176
+			cave				613
+			river				285
+			cliff				179
+			lake				470
+			island				201
+			valley				241
+			continent				315
 			mountain				27
-			peak				344
-			hill				474
-			pond				285
-			coast				376
-			desert				187
-			ground				196
-			marina			v4: replaces cancer (index 120)	204
-			junction			v4: replaces route (index 737)	274
+			peak				339
+			hill				465
+			pond				283
+			coast				369
+			desert				188
+			ground				197
+			marina			v4: replaces cancer (index 120)	205
+			junction			v4: replaces route (index 737)	272
 	Space						
 		*					
-			star				293
+			star				291
 			orbit				211
-			galaxy				193
-			asteroid				251
-			aurora				164
-			satellite				350
-			meteor				205
+			galaxy				194
+			asteroid				249
+			aurora				165
+			satellite				345
+			meteor				206
 			nebula				208
 			pulsar				221
-			comet			v4: replaces death (index 235)	182
+			comet			v4: replaces death (index 235)	183
 	Additional						
 		action					
-			run				928
-			love				927
-			dance				444
-			act				933
-			eat				954
-			fall				934
-			feel				878
-			find				910
-			flow				880
-			spin				723
-			race				948
-			toss				902
-			sing				949
-			swim				602
-			poem				661
-			catch				877
+			run				917
+			love				916
+			dance				435
+			act				922
+			eat				942
+			fall				923
+			feel				868
+			find				900
+			flow				870
+			spin				713
+			race				936
+			toss				892
+			sing				937
+			swim				592
+			poem				652
+			catch				867
 		*					
-			basic				610
-			math				710
-			fax				763
-			fair				909
-			film				632
-			flat				879
-			fish				633
-			gear				700
-			gift				637
-			goal				701
-			hero				644
-			herb				643
-			kind				935
-			lady				576
-			mint				747
-			art				789
-			oval				588
-			pure				891
-			rock				770
-			view				874
-			vote				904
-			wise				925
-			wave				681
-			wire				755
-			award				413
-			brave				541
-			brown				542
-			cabin				427
-			cable				543
-			chain				624
-			charm				432
-			dream				560
-			peace				859
-			quick				833
-			quiet				864
-			salad				508
-			solid				523
-			topic				843
-			curtain				441
-			game				699
-			music				489
-			cloth				549
-			plant				717
-			polite				860
-			food				739
-			vegetable				680
-			furniture				636
-			science				512
-			bird				537
-			nature				831
-			flower				465
-			energy				455
-			insect				476
-			net				783
-			area				850
-			baby				609
-			back				790
-			basis				876
-			bath				687
-			bay				791
-			board				419
-			body				615
-			bonus				420
-			boss				616
-			breath				423
-			bush				689
-			butter				425
-			buyer				426
-			cage				776
-			calendar				545
-			camp				690
-			canvas				428
-			card				777
-			care				952
-			case				804
-			cash				691
-			cast				946
-			cell				623
-			cellar				546
-			cement				429
-			cent				907
-			century				810
-			chalk				430
-			channel				431
+			basic				600
+			math				700
+			fax				753
+			fair				899
+			film				623
+			flat				869
+			fish				624
+			gear				690
+			gift				628
+			goal				691
+			hero				635
+			herb				634
+			kind				924
+			lady				566
+			mint				737
+			art				779
+			oval				578
+			pure				881
+			rock				760
+			view				864
+			vote				894
+			wise				914
+			wave				672
+			wire				745
+			award				404
+			brave				531
+			brown				532
+			cabin				418
+			cable				533
+			chain				615
+			charm				423
+			dream				550
+			peace				849
+			quick				823
+			quiet				854
+			salad				498
+			solid				513
+			topic				833
+			curtain				432
+			game				689
+			music				479
+			cloth				539
+			plant				707
+			polite				850
+			food				729
+			vegetable				671
+			furniture				627
+			science				502
+			bird				527
+			nature				821
+			flower				456
+			energy				446
+			insect				467
+			net				773
+			area				840
+			baby				599
+			back				780
+			basis				866
+			bath				678
+			bay				781
+			board				410
+			body				606
+			bonus				411
+			boss				607
+			breath				414
+			bush				680
+			butter				416
+			buyer				417
+			cage				766
+			calendar				535
+			camp				681
+			canvas				419
+			card				767
+			care				940
+			case				794
+			cash				682
+			cast				934
+			cell				614
+			cellar				536
+			cement				420
+			cent				897
+			century				800
+			chalk				421
+			channel				422
 			cheese				64
-			city				548
-			clam				692
-			class				851
-			climate				434
-			clover				550
-			club				551
-			coach				435
-			coil				760
-			collar				553
-			company				437
-			concrete				554
-			cord				761
-			cork				778
-			cough				438
-			country				811
-			crack				556
-			crate				626
+			city				538
+			clam				683
+			class				841
+			climate				425
+			clover				540
+			club				541
+			coach				426
+			coil				750
+			collar				543
+			company				428
+			concrete				544
+			cord				751
+			cork				768
+			cough				429
+			country				801
+			crack				546
+			crate				617
 			crayon				73
-			cream				557
-			creature				558
-			credit				439
-			crown				735
-			current				812
-			curve				442
-			dark				627
-			date				695
-			decade				445
-			deck				736
-			degree				813
-			depth				814
-			diesel				447
-			dime				696
-			dish				628
-			distance				852
-			door				559
-			drain				737
-			drama				449
-			drawer				450
-			drill				451
-			drink				452
-			drop				561
-			drum				562
-			dust				697
-			earth				454
-			edge				853
-			engine				456
-			entry				815
-			equation				564
-			eraser				457
-			event				816
-			exam				565
-			exit				854
-			fact				908
-			factory				459
-			fan				792
-			fang				630
-			farm				698
-			faucet				460
-			feast				631
-			fence				462
-			fever				463
-			field				464
-			file				738
-			flame				959
-			foot				740
-			force				817
-			form				911
-			formula				818
-			fountain				634
-			frame				567
-			front				819
-			fruit				467
-			fuel				635
+			cream				547
+			creature				548
+			credit				430
+			crown				725
+			current				802
+			curve				433
+			dark				618
+			date				685
+			decade				436
+			deck				726
+			degree				803
+			depth				804
+			diesel				438
+			dime				686
+			dish				619
+			distance				842
+			door				549
+			drain				727
+			drama				440
+			drawer				441
+			drill				442
+			drink				443
+			drop				551
+			drum				552
+			dust				687
+			earth				445
+			edge				843
+			engine				447
+			entry				805
+			equation				554
+			eraser				448
+			event				806
+			exam				555
+			exit				844
+			fact				898
+			factory				450
+			fan				782
+			fang				621
+			farm				688
+			faucet				451
+			feast				622
+			fence				453
+			fever				454
+			field				455
+			file				728
+			flame				960
+			foot				730
+			force				807
+			form				901
+			formula				808
+			fountain				625
+			frame				557
+			front				809
+			fruit				458
+			fuel				626
 			garden				30
-			giant				469
-			glass				638
-			glove				568
-			glue				639
-			grade				881
-			grain				741
-			graph				569
-			grid				640
-			grip				703
-			group				820
-			guest				471
-			guide				472
-			half				882
-			hat				796
-			heat				779
-			home				742
-			hook				743
-			hope				744
-			hour				573
-			house				645
-			idea				855
-			impulse				821
-			income				822
-			ink				745
-			interest				856
-			item				883
-			jar				780
-			jewel				478
-			join				884
-			journey				479
+			giant				460
+			glass				629
+			glove				558
+			glue				630
+			grade				871
+			grain				731
+			graph				559
+			grid				631
+			grip				693
+			group				810
+			guest				462
+			guide				463
+			half				872
+			hat				786
+			heat				769
+			home				732
+			hook				733
+			hope				734
+			hour				563
+			house				636
+			idea				845
+			impulse				811
+			income				812
+			ink				735
+			interest				846
+			item				873
+			jar				770
+			jewel				468
+			join				874
+			journey				469
 			kettle				56
-			kick				574
-			lab				746
-			lace				781
-			lack				953
-			law				797
-			lawn				709
-			left				885
-			letter				481
-			level				823
-			library				482
-			life				936
-			lift				937
-			light				647
-			link				926
-			liquid				483
-			list				913
-			load				886
-			log				782
-			logo				649
-			look				938
-			low				947
-			lumber				578
-			lunch				579
-			machine				485
-			magic				824
-			mail				765
+			kick				564
+			lab				736
+			lace				771
+			lack				941
+			law				787
+			lawn				699
+			left				875
+			letter				471
+			level				813
+			library				472
+			life				925
+			lift				926
+			light				638
+			link				915
+			liquid				473
+			list				903
+			load				876
+			log				772
+			logo				640
+			look				927
+			low				935
+			lumber				568
+			lunch				569
+			machine				475
+			magic				814
+			mail				755
 			mall				1014
-			map				798
-			market				486
-			mars				650
-			mass				914
-			mat				805
-			matrix				487
-			matter				825
-			meal				651
-			media				826
-			memory				827
-			menu				580
-			metal				581
-			mind				939
-			mine				767
-			minute				828
+			map				788
+			market				476
+			mars				641
+			mass				904
+			mat				795
+			matrix				477
+			matter				815
+			meal				642
+			media				816
+			memory				817
+			menu				570
+			metal				571
+			mind				928
+			mine				757
+			minute				818
 			mirror				60
-			mode				857
-			money				653
-			monk				583
-			month				584
-			mood				915
-			mop				768
-			motion				829
-			movie				488
-			mud				711
-			mug				712
-			nation				830
-			note				916
-			number				858
-			office				493
-			ornament				587
-			owner				494
-			pack				785
-			page				657
-			paint				658
-			pan				799
-			parcel				495
-			parent				496
-			park				769
-			part				940
-			patch				887
-			person				497
-			pest				794
-			pet				800
-			phone				498
-			picture				499
-			pill				716
-			pin				801
-			plan				941
-			planet				660
-			plastic				502
-			play				917
-			plot				918
-			point				888
-			pole				749
-			port				786
-			porter				503
-			position				861
-			post				942
-			pot				802
-			power				889
-			price				862
-			print				890
-			profit				832
-			pump				662
-			quartz				504
-			question				863
-			rack				803
-			range				865
-			rate				944
-			ratio				866
-			ray				719
-			right				892
-			ring				750
-			rod				751
-			role				945
-			rope				752
-			rule				893
-			sack				787
-			saddle				507
-			sail				788
-			sample				834
-			sauce				510
-			scale				511
-			scene				835
-			second				836
-			self				894
-			shade				895
-			sheet				664
-			shelf				665
-			shell				666
-			shop				720
-			shower				514
-			side				929
-			sign				867
-			silk				721
-			site				930
-			size				919
-			skill				837
-			sleep				896
-			slip				931
-			slope				518
-			smile				519
-			soap				669
-			society				520
-			soda				670
-			song				722
-			sort				897
-			sound				838
-			space				596
-			spade				673
-			spark				674
-			spot				898
-			stage				868
-			stamp				524
-			stand				869
-			state				899
-			station				958
-			steak				597
-			steam				675
-			step				920
-			stew				725
-			stitch				598
-			story				599
-			stove				600
-			straw				526
-			string				601
-			study				839
-			swing				900
-			task				921
-			tattoo				527
-			tent				771
-			term				870
-			test				950
-			text				922
-			theory				840
-			thing				841
-			thought				842
-			thread				528
-			ticket				529
-			tile				772
-			tilt				901
-			toast				603
-			tool				728
-			top				951
-			trade				871
-			tree				679
-			trip				924
+			mode				847
+			money				644
+			monk				573
+			month				574
+			mood				905
+			mop				758
+			motion				819
+			movie				478
+			mud				701
+			mug				702
+			nation				820
+			note				906
+			number				848
+			office				483
+			ornament				577
+			owner				484
+			pack				775
+			page				648
+			paint				649
+			pan				789
+			parcel				485
+			parent				486
+			park				759
+			part				956
+			patch				877
+			person				487
+			pest				784
+			pet				790
+			phone				488
+			picture				489
+			pill				706
+			pin				791
+			plan				929
+			planet				651
+			plastic				492
+			play				907
+			plot				908
+			point				878
+			pole				739
+			port				776
+			porter				493
+			position				851
+			post				930
+			pot				792
+			power				879
+			price				852
+			print				880
+			profit				822
+			pump				653
+			quartz				494
+			question				853
+			rack				793
+			range				855
+			rate				932
+			ratio				856
+			ray				709
+			right				882
+			ring				740
+			rod				741
+			role				933
+			rope				742
+			rule				883
+			sack				777
+			saddle				497
+			sail				778
+			sample				824
+			sauce				500
+			scale				501
+			scene				825
+			second				826
+			self				884
+			shade				885
+			sheet				655
+			shelf				656
+			shell				657
+			shop				710
+			shower				504
+			side				918
+			sign				857
+			silk				711
+			site				919
+			size				909
+			skill				827
+			sleep				886
+			slip				920
+			slope				508
+			smile				509
+			soap				660
+			society				510
+			soda				661
+			song				712
+			sort				887
+			sound				828
+			space				586
+			spade				664
+			spark				665
+			spot				888
+			stage				858
+			stamp				514
+			stand				859
+			state				889
+			station				959
+			steak				587
+			steam				666
+			step				910
+			stew				715
+			stitch				588
+			story				589
+			stove				590
+			straw				516
+			string				591
+			study				829
+			swing				890
+			task				911
+			tattoo				517
+			tent				761
+			term				860
+			test				938
+			text				912
+			theory				830
+			thing				831
+			thought				832
+			thread				518
+			ticket				519
+			tile				762
+			tilt				891
+			toast				593
+			tool				718
+			top				939
+			trade				861
+			tree				670
+			trip				955
 			trophy				75
-			truth				844
-			twist				845
-			type				903
-			union				872
-			unit				873
-			universe				604
-			value				846
-			vase				729
-			vessel				534
-			vest				773
-			voice				847
-			wallet				535
-			weather				607
-			web				682
-			weight				848
-			while				905
+			truth				834
+			twist				835
+			type				893
+			union				862
+			unit				863
+			universe				594
+			value				836
+			vase				719
+			vessel				524
+			vest				763
+			voice				837
+			wallet				525
+			weather				597
+			web				673
+			weight				838
+			while				895
 			whistle				74
-			wonder				849
-			wool				756
-			word				943
-			work				932
-			world				875
-			yard				731
-			yarn				684
-			youth				906
-			banner			v4: replaces color (index 190)	415
-			harvest			v4: replaces plough (index 661)	473
-			sketch			v4: replaces tale (index 877)	515
-			sticker			v4: replaces wound (index 1014)	525
+			wonder				839
+			wool				746
+			word				931
+			work				921
+			world				865
+			yard				721
+			yarn				675
+			youth				896
+			banner			v4: replaces color (index 190)	406
+			harvest			v4: replaces plough (index 661)	464
+			sketch			v4: replaces tale (index 877)	505
+			sticker			v4: replaces wound (index 1014)	515
 	Greylist						
 		*					
 			east				1019
@@ -1040,7 +1040,7 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark	Rank
 			village				980
 			week				994
 			west				1022
-			north				962
+			north				963
 			south				1004
 			verse				978
 			free				996
@@ -1048,11 +1048,11 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark	Rank
 			live				1023
 			mask				1008
 			angle			Angel / Angle	981
-			equator				961
+			equator				962
 			news				984
 			noise				985
 			nut				1009
-			petrol				963
+			petrol				964
 			pleasure				986
 			powder				987
 			spy				1017
@@ -1067,20 +1067,20 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark	Rank
 			tape				1018
 			tank				1012
 			system				973
-			sushi				971
+			sushi				142
 			smell				991
 			sink				1021
-			shout				968
+			shout				969
 			rust				1001
 			rim				1000
-			receipt				966
+			receipt				967
 			quilt				989
-			quince				964
-			quiver				965
+			quince				965
+			quiver				966
 			punch				988
-			blood				960
+			blood				961
 			army				995
-			smoke				969
+			smoke				970
 			name				998
 			place				1015
 			plane			plain	1020
@@ -1088,7 +1088,7 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark	Rank
 			rent				1010
 			risk				990
 			road				1011
-			school				967
+			school				968
 			shake				1002
 			sleet				1003
-			street				970
+			street				971
