@@ -89,13 +89,14 @@ e.g. 'Mud' must not use 💩, 'War' must not use 🕊️
 ### Versioning:
 
 - Any word replacement changes what a slot is called, so it needs a new dictionary version. The index (the data) never changes
-- The root `wordlist.json` is always the latest version: `{ "version": N, "size": 1024, "words": [...] }`. Older versions are kept in `versions/` (`versions/v3.json` is the original plain array)
-- Old codes must still decode: every retired word is listed in `aliases.json` with its index and replacement. Decoders accept it as that index
-- Encoders only output words from the latest `words`
+- Old codes must still decode: every retired word maps to a replacement at the same index. Decoders accept the retired word as that index
+- Encoders only output words from the latest list
 - A retired word is never reused, for any slot
 - Each version is described in [`VERSIONS.md`](VERSIONS.md): date, reason and every changed index
-- Decoders that read `wordlist.json` must accept both the object and the old plain-array form, and treat a plain array as version 3
-- Edit `wordlist.json`, `aliases.json` and `Wordlist.tsv` only, then run `node scripts/build.js` (regenerates `wordlist.txt` and `wordlist.js`) and `node --test test/wordlist.test.js`
+
+<!-- maintainer
+The root wordlist.json is always the latest version: { "version": N, "size": 1024, "words": [...] }. Older versions are kept in versions/ (versions/v3.json is the original plain array). Retired words are listed in aliases.json with index and replacement. Decoders that read wordlist.json must accept both the object and the old plain-array form, and treat a plain array as version 3. Edit wordlist.json, aliases.json and Wordlist.tsv only, then run `node scripts/build.js` (regenerates wordlist.txt and wordlist.js) and `node --test test/wordlist.test.js`.
+-->
 
 ### Greylist:
 
@@ -103,18 +104,25 @@ e.g. 'Mud' must not use 💩, 'War' must not use 🕊️
 
 ### Blacklist:
 
-- Words that are not in the current list are described in [`BLACKLIST.md`](BLACKLIST.md). Those that were previously in the main list and were replaced still decode via a replacement in `aliases.json`.
-- Words that were never in the main list — the NATO phonetic alphabet (rule 22), and words considered and not used, in [`Wordlist-black.tsv`](Wordlist-black.tsv) — are not aliases. Reasons were not recorded for the existing Wordlist-black.tsv entries. The filename is unchanged so existing links keep working.
-- A replacement is taken from outside Wordlist-black.tsv by default
-- A blacklisted word can only be re-admitted after a fresh review: record why it was blacklisted (or that the reason is unknown), show it passes every rule above and the checks below, and note it in `VERSIONS.md`
-- From now on, record the reason in the 'Remark' column when adding a word to Wordlist-black.tsv
+- Words that are not in the current list are described in [`BLACKLIST.md`](BLACKLIST.md). Those that were previously in the main list and were replaced still decode via a replacement at the same index.
+- Words that were never in the main list — the NATO phonetic alphabet (rule 22), and words considered and not used — are not aliases and have no replacement.
+- A replacement is taken from outside the considered-and-not-used list by default
+- A blacklisted word can only be re-admitted after a fresh review against the current rules, and a note in `VERSIONS.md`
+
+<!-- maintainer
+The considered-and-not-used inventory is Wordlist-black.tsv (filename kept for existing URLs and tools). Reasons were not recorded for the existing entries; from now on, put the reason in the Remark column. Re-admission also means recording why the word was blacklisted (or that the reason is unknown) and showing it passes every rule and check above.
+-->
 
 ### Checks for every new version:
 
 - 1024 unique words, lowercase ASCII, 3-10 letters
-- Every changed slot keeps its index; no other slot changes (`node scripts/build.js` checks this against every file in `versions/`)
-- New words: not in the current list, not a NATO phonetic alphabet word (rule 22), edit distance >= 2 from every word, no homophone (CMU dict), no Double Metaphone or accent minimal-pair match, not in Wordlist-black.tsv (or re-admitted as above)
+- Every changed slot keeps its index; no other slot changes
+- New words: not in the current list, not a NATO phonetic alphabet word (rule 22), edit distance >= 2 from every word, no homophone, no confusing sound-alike, not previously considered and not used (or re-admitted as above)
 - Native-speaker review for sensitivity in Indian languages
 - Listening test: say, hear and type 3-word codes over a phone call
+
+<!-- maintainer
+build.js checks that every changed slot keeps its index against every file in versions/. New-word checks also use the CMU dict, Double Metaphone, accent pairs, and Wordlist-black.tsv (or a recorded re-admission).
+-->
 
 Current version: 4 - see [VERSIONS.md](VERSIONS.md)
