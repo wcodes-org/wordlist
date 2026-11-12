@@ -5,22 +5,27 @@ Canonical rules for choosing, replacing and versioning the 1024 WCode words. Sho
 ### Word selection criteria:
 
 1. Nouns
-e.g. 'Moon' against 'Run'
+**Prefer:** 'Moon'
+**Avoid:** 'Run'
 
-2. Preferabely: tangible, non-absract i.e. concrete – nouns.
-e.g. 'Car' against 'Care'
+2. Prefer concrete nouns.
+**Prefer:** 'Car'
+**Avoid:** 'Care'
 
-3. Base, singular form of the word
-e.g. 'Car' against 'Cars'
+3. Use the base, singular form of the word
+**Prefer:** 'Car'
+**Avoid:** 'Cars'
 
 4. Popular
-e.g. 'Car' against 'Tomahawk'
+**Prefer:** 'Car'
+**Avoid:** 'Tomahawk'
 
-5. Simple pronounciation and spelling
-e.g. 'Cat' against 'Penicillin'
+5. Simple pronunciation and spelling
+**Prefer:** 'Cat'
+**Avoid:** 'Penicillin'
 
-6. Avoid words with spelling variantes
-e.g. 'Color' and 'Colour'
+6. Avoid words with spelling variants
+**Avoid:** words with competing spellings, such as 'Color' and 'Colour'
 
 7. No compounded words
 e.g. 'Volley-ball'
@@ -28,41 +33,47 @@ e.g. 'Volley-ball'
 8. No immoral and objectionable words
 e.g. 'Bomb' 'Dog' 'Pig'
 
-9. Postive words over negative ones
-e.g. 'Rise' instead of 'Fall'
+9. Positive words over negative ones
+**Prefer:** 'Rise'
+**Avoid:** 'Fall'
 
 10. No synonyms
-e.g. 'Man' and 'Person'
+**Avoid:** using both 'Man' and 'Person'
 
 11. Unique, distinct and no homophones
-e.g. 'Apple' against 'Rose' and 'Rows'
+**Prefer:** a distinct word such as 'Apple'
+**Avoid:** using both 'Rose' and 'Rows'
 
 12. No singular and plural of the same word
-e.g. 'Foot' and 'Feet', or 'Child' and 'Children'
+**Avoid:** using both 'Foot' and 'Feet', or both 'Child' and 'Children'
 
 13. No words that are only used in the plural
-e.g. 'Scissor', 'Trouser', 'Pant'
+**Avoid:** 'Scissors', 'Trousers' and 'Pants'
 
 14. Distinct spelling - at least 2 letters apart from every other word (required for new words; existing close pairs are reviewed over time)
-e.g. 'Car' against 'Card' and 'Cart'
+**Avoid:** using 'Car' alongside 'Card' or 'Cart'
 
 15. Distinct sound - no confusable minimal pairs, including common Indian English accent pairs (v/w, s/sh, z/j, th/t, short/long vowels)
-e.g. 'Vest' against 'West', 'Sheep' against 'Ship' (required for new words; existing pairs are reviewed over time)
+**Avoid:** pairs such as 'Vest' and 'West', or 'Sheep' and 'Ship' (required for new words; existing pairs are reviewed over time)
 
 16. One pronunciation only
 e.g. 'Bow', 'Lead', 'Wind' and 'Wound' each have two
 
-17. Spelled the way it sounds - avoid silent letters and irregular spellings
-e.g. 'Cat' against 'Receipt' and 'Plough'
+17. Spelt the way it sounds - avoid silent letters and irregular spellings
+**Prefer:** 'Cat'
+**Avoid:** 'Receipt' and 'Plough'
 
 18. Familiar to Indian and global speakers
-e.g. 'Mango' against 'Quince'. Frequency (English Zipf >= 3.5) is a guide, not a rule: 'Brinjal' and 'Guava' are familiar in India though rare in global English
+**Prefer:** 'Mango'
+**Avoid:** 'Quince'
+Frequency (English Zipf >= 3.5) is a guide, not a rule: 'Brinjal' and 'Guava' are familiar in India though rare in global English
 
 19. Not offensive, vulgar or awkward in Indian languages either, including when spoken by an Indian English speaker or typed in Roman script
 e.g. check Hindi, Marathi, Tamil, Telugu, Kannada, Malayalam, Bengali, Gujarati, Punjabi and Urdu with native speakers
 
 20. Neutral - no death, disease, weapons, violence, crime, religion, politics or brand names
-e.g. 'Comet' instead of 'Death', 'Jeep' is a brand
+**Prefer:** 'Comet'
+**Avoid:** 'Death' and brand names such as 'Jeep'
 
 21. Length: 3 to 10 letters
 
