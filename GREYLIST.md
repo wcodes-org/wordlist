@@ -1,12 +1,14 @@
 # Greylist
 
-Current dictionary words that may be replaced, or whose emoji need work, in a later version. They stay in the live list until a new version is issued. See [RULES.md](RULES.md).
-
-This list was previously titled “Words under review”.
+Current dictionary words that may be replaced, or whose emoji need work, in a later version. They stay in the live list until a new version is issued.
 
 This is not a decision that every word below will be replaced. Some items are emoji issues only.
 
-### Violence, danger or negative (rules 9, 20)
+<!-- maintainer
+Previously titled “Words under review”. See RULES.md. Rule numbers that used to appear in the headings are listed in this comment after each heading in the source history; they remain the grouping rationale.
+-->
+
+### Violence, danger or negative
 
 - `army` — military / violence
 - `blood` — violence
@@ -25,32 +27,32 @@ This is not a decision that every word below will be replaced. Some items are em
 - `tremor` — disaster / medical
 - `uranium` — weapons-adjacent
 
-### Brand names (rule 20)
+### Brand names
 
 - `jeep` — a brand name
 
-### More than one pronunciation (rule 16)
+### More than one pronunciation
 
 - `bow` — bow (weapon) vs bow (bend); also a weapon association
 - `live` — verb vs adjective (short vs long "i")
 
-### Homophones or confusable spelling (rules 6, 11)
+### Homophones or confusable spelling
 
 - `angle` — confusable with "angel"
 - `plane` — confusable with "plain"
 - `week` — confusable with "weak"
 
-### Irregular spelling (rule 17)
+### Irregular spelling
 
 - `receipt` — silent "p"
 
-### Unfamiliar or regional (rules 4, 18)
+### Unfamiliar or regional
 
 - `petrol` — regional (gasoline in some varieties of English)
 - `quince` — called out in rule 18 as less familiar than e.g. mango
 - `sleet` — less familiar in much of India
 
-### Ambiguous or abstract (rules 1, 2)
+### Ambiguous or abstract
 
 - `chamber` — many senses, including a gun chamber
 - `free` — abstract, not a concrete noun
