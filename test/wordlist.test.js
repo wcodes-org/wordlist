@@ -12,6 +12,7 @@ const aliases = read('aliases.json');
 const v3 = read('versions/v3.json');
 const v4 = read('versions/v4.json');
 const v5 = read('versions/v5.json');
+const v6 = read('versions/v6.json');
 const dict = require(path.join(root, 'wordlist.js'));
 
 test('wordlist.json and aliases.json validate', () => {
@@ -49,8 +50,12 @@ test('every previously published word still decodes to its original index', () =
   v4.words.forEach((w, i) => assert.equal(dict.getIndex(w), i, w));
   list.words.forEach((w, i) => assert.equal(dict.getWord(i), w));
   v5.words.forEach((w, i) => assert.equal(dict.getIndex(w), i, w));
-  assert.equal(dict.canonical('jeep'), 'taco');
-  assert.equal(dict.canonical('pretzel'), 'taco');
+  v6.words.forEach((w, i) => assert.equal(dict.getIndex(w), i, w));
+  assert.equal(dict.getWord(436), 'scooter');
+  for (const word of ['jeep', 'pretzel', 'taco']) {
+    assert.equal(dict.getIndex(word), 436);
+    assert.equal(dict.canonical(word), 'scooter');
+  }
   assert.ok(!dict.suggest('jee').includes('jeep'));
 });
 

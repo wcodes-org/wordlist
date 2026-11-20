@@ -6,13 +6,17 @@ Words that are not used in the current list, in two groups: words that were once
 
 Words that were previously in the main list and have been replaced. Each one still decodes: it maps to a replacement at the same index.
 
+#### v7 (2026-11-20)
+
+- `taco` — replaced by `scooter`.
+
 #### v6 (2026-11-12)
 
-- `pretzel` — difficult to spell and pronounce. Replaced by `taco`.
+- `pretzel` — difficult to spell and pronounce. Replaced by `scooter`.
 
 #### v5 (2026-11-12)
 
-- `jeep` — brand name. Replaced by `taco`.
+- `jeep` — brand name. Replaced by `scooter`.
 
 #### v4 (2026-11-09)
 

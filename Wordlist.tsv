@@ -240,7 +240,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark	Rank
 			sugar				147
 			biscuit				119
 			bread				151
-			taco			v6: replaces pretzel (index 436)	605
 			bun				310
 			cake				534
 			candy				125
@@ -308,6 +307,7 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark	Rank
 			jet				953
 			wagon			v4: replaces feet (index 312)	65
 			shuttle			v4: replaces weapon (index 986)	224
+			scooter			v7: replaces taco (index 436)	605
 	Game						
 		*					
 			ball				723
