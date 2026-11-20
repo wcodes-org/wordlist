@@ -9,6 +9,8 @@ What changed in each version of the WCode wordlist, why, and how old codes keep 
 
 | Version | Date | Words changed | Summary |
 | ---: | --- | ---: | --- |
+| [7](#v7---2026-11-20) | 2026-11-20 | 1 | Replaced taco with scooter |
+| [6](#v6---2026-11-12) | 2026-11-12 | 1 | Replaced pretzel with taco |
 | [5](#v5---2026-11-12) | 2026-11-12 | 1 | Replaced a brand name |
 | [4](#v4---2026-11-09) | 2026-11-09 | 28 | Removed weapons, crime, disease, plural forms, spelling variants, homophones and words with two pronunciations |
 | [3](#v3---2019-05-18) | 2019-05-18 | - | First published list |
@@ -24,6 +26,18 @@ A WCode is a list of indexes (0-1023). Each word stands for one index; the index
 - **Old clients keep working.** Until v3, the root `wordlist.json` was a plain array. From v4 it is an object (`{ "version", "size", "words" }`). A decoder that still expects an array ignores the new file and keeps its bundled v3 list. It then reads v3 codes, but not codes that use a new v4 word.
 
 `wordlist.js` gives apps this behaviour directly: `getIndex('death') === getIndex('comet') === 235`, `canonical('death') === 'comet'`, `isRetired('death') === true`.
+
+## v7 - 2026-11-20
+
+| Index | Old word (v6) | New word (v7) | Reason |
+| ---: | --- | --- | --- |
+| 436 | taco | scooter | Scooter is a concrete noun and appears more often in recent English-language books. |
+
+`taco`, `pretzel` and `jeep` all decode at index 436.
+
+### Notes for maintainers
+
+`scooter` was previously considered and set aside without a recorded reason. The fresh review found a minimum edit distance of 3, one CMU pronunciation, no CMU homophone and no Double Metaphone collision among active words. Native-speaker review and the phone listening test are pending.
 
 ## v6 - 2026-11-12
 
